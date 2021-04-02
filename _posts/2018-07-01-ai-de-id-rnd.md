@@ -1,5 +1,5 @@
 ---
-title: AI De-Indentipication R&D
+title: AI De-Indentipication Research & Developement 
 categories: [AudioVideo]
 comments: true
 ---
