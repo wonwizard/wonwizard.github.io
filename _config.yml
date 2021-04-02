@@ -21,7 +21,8 @@ user:
   name: WonWizard
   pic: /assets/img/wonwizard.png
   picAlt: "wonwizard"
-  job: AI Research and Developement, Android & Wizard Dreamer, Korea
+  job: AI Research and Developement, Android & Wizard Dreamer, Korea <br> 
+       AI Reasearch and Development Projects and study. AI Video/Audio, AI Medical, AI Challenge...  
   aboutme: #true # comment this out if you don't need the 'about' page.
 
 exclude:
