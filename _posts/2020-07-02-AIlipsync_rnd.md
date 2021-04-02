@@ -1,5 +1,5 @@
 ---
-title: AI-lipsync  
+title: AI-lipsync Research and Development 
 categories: [GAN]
 comments: true
 ---
