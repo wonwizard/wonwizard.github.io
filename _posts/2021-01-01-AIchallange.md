@@ -7,7 +7,7 @@ comments: true
 
 -----------------
 
-* 20210319 캐글 대회 RANZCR CLiP - Catheter and Line Position Challenge 에서 11위
+* 20210319 캐글 대회 RANZCR CLiP - Catheter and Line Position Challenge 에서 11위 설명글
   > https://www.facebook.com/groups/KaggleKoreaOpenGroup/permalink/863920357673398/
   >     
   >  캐글 대회 RANZCR CLiP - Catheter and Line Position Challenge 에서 11위/1547명 으로 솔로 금메달    
@@ -25,7 +25,7 @@ comments: true
 
 -----------------
 
-* 2020.12.27 IITP 그랜드 챌린지 폭력 상황 음성인지 1위 
+* 2020.12.27 IITP 그랜드 챌린지 폭력 상황 음성인지 1위 설명들
   > https://ai4nlp.tistory.com/m/17
   > 1. 음성인식 후 생성된 텍스트를 분류 방법 사용. 데이터는 아래 직접 모은 데이터 사용. 
   >    - 음성인식 모델 :  Seq2Seq with attention + CTC   
