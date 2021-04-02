@@ -2,9 +2,8 @@
 title: WonWizard Research #Your awesome title
 email: won.wizard@gmail.com #youremail@domain.com
 description: > # this means to ignore newlines until "baseurl"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+       WonWizard AI Research and Developement, Android & Wizard Dreamer, Korea.  
+       Projects and study. AI Video/Audio, AI Medical, AI Challenge ...  
 
 baseurl: # the subpath of the site
 url: http://wonwizard.github.io # the base hostname & protocol for your site
@@ -21,8 +20,8 @@ user:
   name: WonWizard
   pic: /assets/img/wonwizard.png
   picAlt: "wonwizard"
-  job: AI Research and Developement, Android & Wizard Dreamer, Korea <br> 
-       AI Reasearch and Development Projects and study. AI Video/Audio, AI Medical, AI Challenge...  
+  job: AI Research and Developement, Android & Wizard Dreamer, Korea. <br> 
+       Projects and study. AI Video/Audio, AI Medical, AI Challenge...  
   aboutme: #true # comment this out if you don't need the 'about' page.
 
 exclude:
