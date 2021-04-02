@@ -21,7 +21,7 @@ user:
   name: WonWizard
   pic: /assets/img/wonwizard.png
   picAlt: "wonwizard"
-  job: AI Research Android & Wizard Dreamer , Middle aged man, Korea
+  job: AI Research and Developement, Android & Wizard Dreamer, Korea
   aboutme: #true # comment this out if you don't need the 'about' page.
 
 exclude:
