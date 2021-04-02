@@ -1,5 +1,5 @@
 ---
-title: AI Challange 
+title: AI Challange info
 categories: [AIchallange]
 comments: true
 ---
