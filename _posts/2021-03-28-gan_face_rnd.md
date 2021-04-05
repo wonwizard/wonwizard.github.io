@@ -6,13 +6,13 @@ comments: true
 
 * GAN Face Generation & Facial expressions  
 
-<video><source type="video/mp4" src="/image/face_movie.mp4"></video>   
-<img src="/image/face_star.png">   
-<img src="/image/face_yellow.png">   
-<img src="/image/face_model.png">   
-<img src="/image/face_aniface.png">   
-<img src="/image/face_anibody.png">   
-<img src="/image/face_direction_value_change.png">  
+<video><source type="video/mp4" src="/images/face_movie.mp4"></video>   
+<img src="/images/face_star.png">   
+<img src="/images/face_yellow.png">   
+<img src="/images/face_model.png">   
+<img src="/images/face_aniface.png">   
+<img src="/images/face_anibody.png">   
+<img src="/images/face_direction_value_change.png">  
 
  > StyleGAN2 모델를 기반으로 얼굴 생성하고 눈깜박임이나 표정등 변환가능한 코드가 있어 테스트해 보았습니다.   
  > StyleGAN2 로 얼굴을 생성한후 이에 특정 피처(eyes_open,happy,angly)를 조금씩 변경해가며 이미지들을 생성하고 이 이미지들로 동영상으로 만드는 코드는 제가 직접 작성하여 동영상으로 만들었습니다.   
