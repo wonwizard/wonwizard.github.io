@@ -19,29 +19,29 @@ comments: true
 ----------------------
 * Imagenet SOTA 20210331    
 RANK	MODEL	TOP1ACCU TOP5 ACCU PARAMS EXTRA DATA	paper YEAR   
-1 Meta Pseudo Labels(EfficientNet-L2)        90.2%	98.8%	480M	O  google Meta Pseudo Labels 2021   
-2 Meta Pseudo Labels(EfficientNet-B6-Wide) 90%	98.7%	390M	O  google Meta Pseudo Labels 2021   
-3 NFNet-F4+                                        89.2%	-	527M	O  deepmind High-Performance Large-Scale Image Recognition Without Normalization 2021   
-4 ALIGN(EfficientNet-L2)                          88.64%	98.67%	480M	O  google Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision 2021   
-5 EfficientNet-L2-475(SAM)                      88.61%		480M	O  google Sharpness-Aware Minimization for Efficiently Improving Generalization 2020   
-6 ViT-H/14                                          88.55%		632M	O  google An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale 2020   
-7 FixEfficientNet-L2                               88.5%	98.7%	480M	O facebook Fixing the train-test resolution discrepancy: FixEfficientNet 2020   
-8 NoisyStudent(EfficientNet-L2)                88.4%	98.7%	480M     O google Self-training with Noisy Student improves ImageNet classification 2020   
-9 ViT-L/16                                           87.76%		307M	O  google An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale 2020   
-10 BiT-L(ResNet)                                   87.54%	98.46%	  -         O  google Big Transfer (BiT): General Visual Representation Learning 2019   
-11 FixEfficientNet-B7                               87.1%	98.2%	66M	O   
-12 NoisyStudent(EfficientNet-B7)86.9%        98.1%	            66M      O              
-13 FixEfficientNet-B6                               86.7%	98.0%	43M	O   
-14 NFNet-F6 w/ SAM                              86.5%	97.9%	438.4M	X   
-15 FixResNeXt-101 32x48d                        86.4%	98.0%	829M	O   
-16 NoisyStudent(EfficientNet-B6)                86.4%	97.9%	43M	O   
-17 FixEfficientNet-B5                           86.4%	97.9%	30M O    
-18 Swin-L(384 res, ImageNet-22k pretrain)       86.4%   O Microsoft Swin Transformer: Hierarchical Vision Transformer using Shifted Windows 202103    
-19 NFNet-F5 w/ SAM                              86.3%		377.2M   X	  
-20 NoisyStudent(EfficientNet-B5)                86.1%	97.8%	30M	O   
+1 <mark style='background-color: #ffd33d'>Meta Pseudo Labels(EfficientNet-L2)</mark>        90.2%	98.8%	480M	O  google Meta Pseudo Labels 2021   
+2 <mark style='background-color: #ffd33d'>Meta Pseudo Labels(EfficientNet-B6-Wide)</mark> 90%	98.7%	390M	O  google Meta Pseudo Labels 2021   
+3 <mark style='background-color: #ffd33d'>NFNet-F4+</mark>                                        89.2%	-	527M	O  deepmind High-Performance Large-Scale Image Recognition Without Normalization 2021   
+4 <mark style='background-color: #ffd33d'>ALIGN(EfficientNet-L2)</mark>                          88.64%	98.67%	480M	O  google Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision 2021   
+5 <mark style='background-color: #ffd33d'>EfficientNet-L2-475(SAM)</mark>                      88.61%		480M	O  google Sharpness-Aware Minimization for Efficiently Improving Generalization 2020   
+6 <mark style='background-color: #ffd33d'>ViT-H/14</mark>                                          88.55%		632M	O  google An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale 2020   
+7 <mark style='background-color: #ffd33d'>FixEfficientNet-L2</mark>                               88.5%	98.7%	480M	O facebook Fixing the train-test resolution discrepancy: FixEfficientNet 2020   
+8 <mark style='background-color: #ffd33d'>NoisyStudent(EfficientNet-L2)</mark>                88.4%	98.7%	480M     O google Self-training with Noisy Student improves ImageNet classification 2020   
+9 <mark style='background-color: #ffd33d'>ViT-L/16</mark>                                           87.76%		307M	O  google An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale 2020   
+10 <mark style='background-color: #ffd33d'>BiT-L(ResNet)</mark>                                   87.54%	98.46%	  -         O  google Big Transfer (BiT): General Visual Representation Learning 2019   
+11 <mark style='background-color: #ffd33d'>FixEfficientNet-B7</mark>                               87.1%	98.2%	66M	O   
+12 <mark style='background-color: #ffd33d'>NoisyStudent(EfficientNet-B7)</mark>      86.9%        98.1%	            66M      O              
+13 <mark style='background-color: #ffd33d'>FixEfficientNet-B6</mark>                               86.7%	98.0%	43M	O   
+14 <mark style='background-color: #ffd33d'>NFNet-F6 w/ SAM</mark>                              86.5%	97.9%	438.4M	X   
+15 <mark style='background-color: #ffd33d'>FixResNeXt-101 32x48d</mark>                        86.4%	98.0%	829M	O   
+16 <mark style='background-color: #ffd33d'>NoisyStudent(EfficientNet-B6)</mark>                86.4%	97.9%	43M	O   
+17 <mark style='background-color: #ffd33d'>FixEfficientNet-B5</mark>                           86.4%	97.9%	30M O    
+18 <mark style='background-color: #ffd33d'>Swin-L(384 res, ImageNet-22k pretrain)</mark>       86.4%   O Microsoft Swin Transformer: Hierarchical Vision Transformer using Shifted Windows 202103    
+19 <mark style='background-color: #ffd33d'>NFNet-F5 w/ SAM</mark>                              86.3%		377.2M   X	  
+20 <mark style='background-color: #ffd33d'>NoisyStudent(EfficientNet-B5)</mark>                86.1%	97.8%	30M	O   
 
 -------------------
-* 2103 ResNet-RS  google, sota는 아니지만 속도 개선, no extra data   
+* 2103 <mark style='background-color: #ffd33d'>ResNet-RS  google</mark>, sota는 아니지만 속도 개선, no extra data   
  Revisiting ResNets: Improved Training and Scaling Strategies https://arxiv.org/pdf/2103.07579.pdf      
  ResNet-RS는 EfficientNets보다 1.7 배-2.7 배 빠르면서 ImageNet에서 비슷한 정확도를 달성.    
  대규모 준지도 학습에서 ResNet-RS는 EfficientNet NoisyStudent보다 4.7 배 빠르면서 86.2 % top-1 ImageNet 정확도 달성   
@@ -117,7 +117,7 @@ RANK	MODEL	TOP1ACCU TOP5 ACCU PARAMS EXTRA DATA	paper YEAR
        EfficientNet-B0                    76.3%   5.3M                     
 
 ---------------------
-* Meta Pseudo Labels 논문에서 발췌   
+* <mark style='background-color: #ffd33d'>Meta Pseudo Labels </mark>논문에서 발췌   
  Method  Params ExtraData ImageNetTop-1 Top-5 ImageNet-ReaL    
  ResNet-50             26M − 76.0 93.0 82.94   
  ResNet-152            60M − 77.8 93.8 84.79   
