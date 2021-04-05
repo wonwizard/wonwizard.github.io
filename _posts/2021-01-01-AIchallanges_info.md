@@ -1,5 +1,5 @@
 ---
-title: AI Challange info
+title: AI Challange 대회 참여 솔루션 설명글들 
 categories: [AIchallange]
 comments: true
 ---
