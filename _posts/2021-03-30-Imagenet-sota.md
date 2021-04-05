@@ -17,7 +17,7 @@ comments: true
 <a href="https://github.com/rwightman/pytorch-image-models">https://github.com/rwightman/pytorch-image-models</a>
 
 ----------------------
-* Imagenet SOTA 20210331
+* Imagenet SOTA 20210331    
 RANK	MODEL	TOP1ACCU TOP5 ACCU PARAMS EXTRA DATA	paper YEAR   
 1 Meta Pseudo Labels(EfficientNet-L2)        90.2%	98.8%	480M	O  google Meta Pseudo Labels 2021   
 2 Meta Pseudo Labels(EfficientNet-B6-Wide) 90%	98.7%	390M	O  google Meta Pseudo Labels 2021   
