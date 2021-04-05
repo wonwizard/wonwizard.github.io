@@ -10,11 +10,11 @@ comments: true
 > balance data / augment   
 > image resolution 더 크게   
 
-* Imagenet sota 202103
-https://paperswithcode.com/sota/image-classification-on-imagenet
+* Imagenet sota 202103    
+<a href="https://paperswithcode.com/sota/image-classification-on-imagenet">https://paperswithcode.com/sota/image-classification-on-imagenet</a>
 
-* pytorch image models 
-https://github.com/rwightman/pytorch-image-models
+* pytorch image models   
+<a href="https://github.com/rwightman/pytorch-image-models">https://github.com/rwightman/pytorch-image-models</a>
 
 ----------------------
 RANK	MODEL	TOP1ACCU TOP5 ACCU PARAMS EXTRA DATA	paper YEAR   
