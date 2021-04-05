@@ -713,3 +713,9 @@ img {
         color: var(--footer_font_a);
     }
 }
+
+/* lnw add table  */
+
+table{border:2px solid; border-collapse:collapse;}
+th, td{border:1px solid; text-align: left;}
+th{background-color: lightgray;text-align: center;}
