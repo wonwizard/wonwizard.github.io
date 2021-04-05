@@ -6,6 +6,8 @@ comments: true
 
 * GAN Face Generation & Facial expressions  
 
+  > 아래는 실제가 아닌 AI로 생성된 얼굴 이미지들 및 표정 
+
 <video><source type="video/mp4" src="/images/face_movie.mp4"></video>   
 <img src="/images/face_star.png">   
 <img src="/images/face_yellow.png">   
