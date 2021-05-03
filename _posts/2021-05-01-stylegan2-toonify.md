@@ -1,6 +1,6 @@
 ---
 title: Stylegan2-toonify 20210501
-categories: [Image]
+categories: [GAN]
 comments: true
 ---
 
