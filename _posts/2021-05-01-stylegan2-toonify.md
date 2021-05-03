@@ -37,7 +37,7 @@ Wouldn't it be possible to create a character or toon/anime you want using AI, m
 
 
 ## Compare to Others
-![Toonify compare image](./docs/toonify-comapre.png)
+![Toonify compare image](/images/toonify-comapre.png)
 
 ## Generate toon images 
 ![Toonify compare image](/images/toonify-generate.png)
@@ -54,7 +54,7 @@ Wouldn't it be possible to create a character or toon/anime you want using AI, m
 
 ----------------------
 
-Goto Github https://github.com/wonwizard/stylgan2-toonify
+Goto Github <a href=https://github.com/wonwizard/stylgan2-toonify> https://github.com/wonwizard/stylgan2-toonify </a>
 
 
 
