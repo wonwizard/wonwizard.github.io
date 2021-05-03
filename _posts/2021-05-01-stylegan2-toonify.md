@@ -54,7 +54,7 @@ Wouldn't it be possible to create a character or toon/anime you want using AI, m
 
 ----------------------
 
-Goto Github <a href=https://github.com/wonwizard/stylgan2-toonify> https://github.com/wonwizard/stylgan2-toonify </a>
+Goto Github <a href="https://github.com/wonwizard/stylgan2-toonify"> https://github.com/wonwizard/stylgan2-toonify </a>
 
 
 
