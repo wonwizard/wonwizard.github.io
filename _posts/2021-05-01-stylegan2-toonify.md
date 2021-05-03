@@ -40,67 +40,21 @@ Wouldn't it be possible to create a character or toon/anime you want using AI, m
 ![Toonify compare image](./docs/toonify-comapre.png)
 
 ## Generate toon images 
-![Toonify compare image](./docs/toonify-generate.png)
+![Toonify compare image](/images/toonify-generate.png)
 
 ## Transfer Korea Star Photos to toon Images 
-![Toonify compare image](./docs/toonify-k-star.png)
+![Toonify compare image](/images/toonify-k-star.png)
    
 ## Edit Face 1(Latent direction move) 
-![Toonify Latent direction](./docs/11-movie-1.gif)
+![Toonify Latent direction](/images/11-movie-1.gif)
 
 ## Edit Face 2(Latent direction move) 
-![Toonify Latent direction](./docs/11-movie-2.gif)
+![Toonify Latent direction](/images/11-movie-2.gif)
    
 
 ----------------------
 
-## Requirements
-
-See StyleGAN2 Requirements
-
-## Usage
-
-1) align image
-
-Copy real face photos in "data_test" directory.
-It will save face croped and aligned images. 
-
-```.bash
-python align_images.py data_test data_img_aligned
-```
-
-2) project image
-
-It will generate *.npy files and projected_image files in "data_project_gen" directory.
-Make "pretrained_networks" directory.
-Download pretrain network "https://drive.google.com/file/d/1-04v78_pI59M0IvhcKxsm3YhK2-plnbj/view?usp=drivesdk" and save in "pretrained_networks" directory.
-
-```.bash
-python project_images.py data_img_aligned data_project_gen --num-steps=1500 --network-pkl="pretrained_networks/generator_star-stylegan2-config-f.pkl" --tmp-dir="./tmp"
-```
-
-3) toonify
-
-It will generate toonified image files in "data_project_gen" directory and It will add "_toon" to filename.
-Download pretrain network "https://drive.google.com/file/d/1ENBelwQO-_HWFJk0cBzFvi86wPuYwxSz/view?usp=sharing" and save in "pretrained_networks" directory.
-Download pretrain network "https://drive.google.com/file/d/1AO42jOsgAdWC1L4lgZzk2-FarniPeilp/view?usp=sharing" and save in "pretrained_networks" directory.
-* send email won.wizard@gmail.com to download permission. 
-
-Semi-realistic Toon
-```.bash
-python toonify_lnw.py --image_dir=data_project_gen --filename=_toon1.jpg --blendednet="pretrained_networks/wonwizard-bl-anistar-s30r64.pkl"
-```
-
-Drawing Toon
-```.bash
-python toonify_lnw.py --image_dir=data_project_gen --filename=_toon2.jpg --blendednet="pretrained_networks/wonwizard-bl-anistar-s120r128.pkl"
-```
-
-Based on nvidia StyleGAN2.   
-이것들은 개인적으로만 사용가능하며 허가없이 대외적으로 사용할 수 없음.   
-These are for personal use only and cannot be used externally without my permission.   
-
-
+Goto Github https://github.com/wonwizard/stylgan2-toonify
 
 
 
