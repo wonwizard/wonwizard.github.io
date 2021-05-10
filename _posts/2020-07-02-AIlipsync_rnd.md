@@ -9,12 +9,12 @@ comments: true
 
 
 <video width="256" controls autoplay loop><source type="video/mp4" src="/images/lipsync_obama.mp4"></video>    
-
-<video width="256" controls autoplay loop><source type="video/mp4" src="/images/lipsync_monalisa.mp4"></video>    
-
-<video width="256" controls autoplay loop><source type="video/mp4" src="/images/lip1026.mp4"></video>    
-
-<video width="256" controls autoplay loop><source type="video/mp4" src="/images/gpt3gan.mp4"></video>    
-
+     
+<video width="256" controls><source type="video/mp4" src="/images/lipsync_monalisa.mp4"></video>    
+    
+<video width="256" controls><source type="video/mp4" src="/images/lip1026.mp4"></video>    
+    
+<video width="256" controls><source type="video/mp4" src="/images/gpt3gan.mp4"></video>    
+    
 
 
