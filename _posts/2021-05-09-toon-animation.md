@@ -16,8 +16,12 @@ comments: true
 아주 잘 된다고 말하긴 그렇고 제약도 많지만 계속 발전할 것이라고 생각됩니다.     
 제가 제대로 잘하지 못했을수도 있고, 사진이 아닌 웹툰 이미지로 테스트했고 여러 다양한 시험은 하지 않고 간단하게만 테스트해 본것이므로 이 것으로 이 논문 모델의 성능을 확정하진 말아 주셨으면 합니다.    
 
-<video width="256" controls autoplay loop><source type="video/mp4" src="/images/face_movie.mp4"></video> 
-
+<video width="256" controls autoplay loop><source type="video/mp4" src="/images/ArticulatedAnimation_test1_ted.mp4"></video>    
+     
+<video width="256" controls autoplay loop><source type="video/mp4" src="/images/ArticulatedAnimation_test3_dance3.mp4"></video>    
+     
+<video width="256" controls autoplay loop><source type="video/mp4" src="/images/ArticulatedAnimation_demo_origin.mp4"></video>      
+     
 
 아래 제가 테스트했던 대로의 colab 코드 공유 합니다.    
 <a href="https://colab.research.google.com/drive/1kYUTJAPLJb9iOBaIJAK7vXYC6SS-4inH?usp=sharing"> https://colab.research.google.com/drive/1kYUTJAPLJb9iOBaIJAK7vXYC6SS-4inH?usp=sharing </a>  
