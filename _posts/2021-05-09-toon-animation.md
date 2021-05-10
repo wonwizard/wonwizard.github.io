@@ -1,5 +1,5 @@
 ---
-title: Toon Animation 20210509
+title: Toon Animation 
 categories: [GAN]
 comments: true
 ---
