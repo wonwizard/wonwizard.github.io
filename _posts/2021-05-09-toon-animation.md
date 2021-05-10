@@ -6,7 +6,7 @@ comments: true
 
 ## Toon Animation    
 
-# 웹툰 이미지를 움직이게 하기 최신 논문 모델 테스트    
+## 웹툰 이미지를 움직이게 하기 최신 논문 모델 테스트    
 
 지난번에 StyleGAN2를 통한 툰 이미지 생성및 변환에 이어 이번에는 툰 이미지를 움직이게 해 보았습니다.    
 이미지를 주어진 동영상과 같게 움직이게 만들어주는 First Order Motion Model for Image Animation의 후속 최신 모델 Motion Representations for Articulated Animation 논문과 소스가 공개되어 이를 이용해 웹툰 여신강림 여주를 움직이게 해 보았습니다.    
