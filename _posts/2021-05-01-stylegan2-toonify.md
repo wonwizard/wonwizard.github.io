@@ -1,5 +1,5 @@
 ---
-title: Stylegan2-toonify 20210501
+title: Stylegan2-toonify 
 categories: [GAN]
 comments: true
 ---
