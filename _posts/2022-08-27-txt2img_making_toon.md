@@ -1,10 +1,10 @@
 ---
-title: Making Webtoon by text-to-image AI, stable diffusion, DALL-E  
+title: Making Webtoon by text-to-image AI, StableDiffusion/DALL-E  
 categories: [GAN]
 comments: true
 ---
 
-## Making Webtoon by text-to-image AI, stable diffusion, DALL-E 
+## Making Webtoon by text-to-image AI, StableDiffusion/DALL-E 
 ## AI(text-to-image)로 웹툰 만들어 보기 
 
 * 요즘 핫한 text-to-image AI 모델 stable diffusion, DALL-E 를 가지고 시험적으로 웹툰을 만들어 보았습니다.
