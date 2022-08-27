@@ -13,4 +13,7 @@ comments: true
   > 기본적으로 무작위적으로 생성되며(씨드를 활용해도) 원하는대로 잘 되지 않는 한계도 있었지만 어쨋든 완성했습니다. 
   > 다음 시간이 된다면 2탄은 게임 이미지, 3D 이미지를 시도해 볼 까 합니다. (언제가 될지는 모름...)
 
- 
+ ## Generate toon images 
+![Toon image](/images/toonify-generate.png)
+
+
