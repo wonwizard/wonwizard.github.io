@@ -1,6 +1,6 @@
 ---
 title: Making Webtoon by text-to-image AI, stable diffusion, DALL-E  
-categories: [Gan]
+categories: [GAN]
 comments: true
 ---
 
