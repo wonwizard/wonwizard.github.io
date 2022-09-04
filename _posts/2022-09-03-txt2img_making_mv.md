@@ -20,10 +20,10 @@ comments: true
   >   
 
 ## BLACKPINK "PINK VENOM" Music Video by AI
-<p><video width="1280" controls autoplay loop><source type="video/mp4" src="/images/pinkvenom_small.mp4"></video></p>   
+<iframe width="960" height="540" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## IVE "After Like" Music Video by AI
-<p><video width="1280" controls autoplay loop><source type="video/mp4" src="/images/iveaferlike_small.mp4"></video></p> 
+<iframe width="960" height="540" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Original Music & Dance Video Image  
 ![MV image](/images/dance_practice.png)
