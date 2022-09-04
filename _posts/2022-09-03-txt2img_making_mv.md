@@ -15,15 +15,15 @@ comments: true
   > 배경을 깔끔하게 합성하기 좋은 크로마키 배경 댄스 영상이 있었으면 좀 더 합성이 깔끔하게 좋았을 텐데 단순 색깔 배경의 댄스 연습 영상으로 합성을 하였습니다.  
   > AI 모델은 Text-to-Image Diffusion Model 을 이용하였으며 댄스 영상을 제외한 모든 이미지 및 영상은 모두 AI로 제작되엇습니다.  
   > 짧은 시간(주말동안)과 넉넉하지 못한 GPU 장비로 시험적으로 만들었기에 많은 중간 frame 들을 생성하지 못하고 만들었기에  
-  > 영상이 다소 매끄럽지 않고 편집도 어수룩한 점은 이해해 주시고, 동양상 용량 제한도 있어 낮은 품질로 영상을 압축 저장하였습니다.
+  > 영상이 다소 매끄럽지 않고 편집도 어수룩한 점은 이해해 주시고, 
   > AI로 Music Video 제작 활용 가능성을 확인해 보시길 바랍니다.    
   >   
 
 ## BLACKPINK "PINK VENOM" Music Video by AI
-<iframe width="960" height="540" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<a href="https://youtu.be/NMpOv6aFllw">BLACKPINK "PINK VENOM" Music Video by AI</a>
 
 ## IVE "After Like" Music Video by AI
-<iframe width="960" height="540" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<a href="https://youtu.be/D33erRt9mh0">IVE "After Like" Music Video by AI</a>
 
 ## Original Music & Dance Video Image  
 ![MV image](/images/dance_practice.png)
