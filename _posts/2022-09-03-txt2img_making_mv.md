@@ -23,7 +23,7 @@ comments: true
 <a href="https://www.youtube.com/watch?v=0vOynlQO3wg">BLACKPINK "PINK VENOM" Music Video by AI <br>![Edit2 image](/images/edit_pink1_720.png)</a>
 
 ## IVE "After Like" Music Video by AI
-<a href="https://youtu.be/D33erRt9mh0">IVE "After Like" Music Video by AI <br>![Edit1 image](/images/edit_ive1_720.png)</a>
+<a href="https://www.youtube.com/watch?v=-z_TrAGlGRI">IVE "After Like" Music Video by AI <br>![Edit1 image](/images/edit_ive1_720.png)</a>
 
 ## Original Music & Dance Video Image  
 ![MV image](/images/dance_practice.png)
