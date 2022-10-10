@@ -6,7 +6,7 @@ comments: true
 
 ## AI text-to-Image Generaion, Video/3D Generaion Papers/Models 
 
-# 1. DALL-E, Zero-Shot Text-to-Image Generation (2021.1 OpenAI, text-to-image)  
+### 1. DALL-E, Zero-Shot Text-to-Image Generation (2021.1 OpenAI, text-to-image)  
  DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs.  
  - site : https://openai.com/blog/dall-e/  
  - paper : https://arxiv.org/abs/2102.12092  
