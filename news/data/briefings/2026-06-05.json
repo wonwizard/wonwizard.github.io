@@ -3,11 +3,29 @@
   "category": "AI",
   "articles": [
     {
-      "title": "test",
-      "source": "aitimes",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=211341",
+      "title": "Reve 2.0 released! layout based. Arena Text-to-Image top2",
+      "source": "reve blog",
+      "url": "https://blog.reve.com/posts/the-layout-bet/",
       "bullets": [
-        "테스트입니다."
+        "4K 이미지 모델로, 정밀한 레이아웃을 활용해 어떤 이미지든 생성하고 편집할 수 있는 새로운 방식. ",
+        "Arena Text-to-Image에서 Nano Banana 2를 제치고 2위를 달성 (1위는 gpt-image-2)"
+      ]
+    },
+    {
+      "title": "Bytedance Dreamina_ai released 'Dreamina Octo'(beta), Vibe Creating!",
+      "source": "dreamina",
+      "url": "https://dreamina.capcut.com/ai-tool/octo",
+      "bullets": [
+        "Dreamina Octo가 Dreamina Seedance 2.0 AI video와 함께 정식 베타 서비스를 시작합니다. ",
+        "창의적인 에이전트와 함께 ‘Vibe Creating’을 하는 느낌입니다. 대화를 통해 아이디어를 탐구하고, 시각적으로 정리하면서, 명확한 창작 방향으로 이끌어 갈수 있습니다."
+      ]
+    },
+    {
+      "title": "스필버그 “AI는 도구로 사용해야, 크리에이티브의 최종 판단으로 삼아서는 안 된다”",
+      "source": "theriver.jp",
+      "url": "https://theriver.jp/spielberg-ai-as-a-tool",
+      "bullets": [
+        "스티븐 스필버그 감독은 AI를 효율적인 실무 도구로 사용할 수는 있지만, 창작의 최종 판단을 내리는 주체가 되어서는 안 된다고 밝혔습니다."
       ]
     }
   ]
