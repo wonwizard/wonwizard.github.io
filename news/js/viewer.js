@@ -51,7 +51,7 @@
 
     const bulletsWrap = document.createElement('div');
     bulletsWrap.className = 'article-bullets';
-    bulletsWrap.innerHTML = `<div class="bullets-label">핵심 내용</div>`;
+    bulletsWrap.innerHTML = '';
 
     const ul = document.createElement('ul');
     ul.className = 'bullets-list';
