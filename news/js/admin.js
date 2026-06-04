@@ -55,11 +55,49 @@
     return ghRequest('PUT', `/repos/${owner}/${repo}/contents/${filePath}`, body, pat);
   }
 
+  // ── GitHub API: 파일 내용 읽기 ───────────────────────────
+  async function getFileContent(owner, repo, branch, filePath, pat) {
+    const data = await ghRequest('GET', `/repos/${owner}/${repo}/contents/${filePath}?ref=${branch}`, null, pat);
+    return JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g, '')))));
+  }
+
   // ── State ────────────────────────────────────────────────
   let articles = []; // [{ title, source, url, bullets: [] }]
 
   function emptyArticle() {
     return { title: '', source: '', url: '', bullets: [''] };
+  }
+
+  // ── 날짜 선택 시 기존 데이터 로드 ────────────────────────
+  async function loadBriefingForDate(date) {
+    const cfg = loadConfig();
+    if (!cfg.pat) return; // 설정 없으면 스킵
+
+    const statusEl = document.getElementById('publish-status');
+    statusEl.textContent = '불러오는 중...';
+
+    try {
+      const { owner, repo, branch, pat } = cfg;
+      const data = await getFileContent(owner, repo, branch, `news/data/briefings/${date}.json`, pat);
+
+      // 카테고리 반영
+      document.getElementById('field-category').value = data.category || 'AI';
+
+      // 기사 목록 반영
+      articles = data.articles.map(a => ({
+        title: a.title || '',
+        source: a.source || '',
+        url: a.url || '',
+        bullets: a.bullets && a.bullets.length ? a.bullets : [''],
+      }));
+      renderArticles();
+      statusEl.textContent = `${date} 데이터 로드됨`;
+    } catch (err) {
+      // 해당 날짜 데이터 없음 → 빈 폼으로 초기화
+      articles = [emptyArticle()];
+      renderArticles();
+      statusEl.textContent = '새 브리핑';
+    }
   }
 
   // ── Render articles ──────────────────────────────────────
@@ -253,12 +291,19 @@
 
   // ── Init ─────────────────────────────────────────────────
   function init() {
-    // 오늘 날짜 기본값
-    document.getElementById('field-date').value = new Date().toISOString().slice(0, 10);
+    // 오늘 날짜 기본값 설정 후 데이터 로드 시도
+    const today = new Date().toISOString().slice(0, 10);
+    document.getElementById('field-date').value = today;
 
-    // 기사 1개 기본 추가
-    articles.push(emptyArticle());
+    // 날짜 변경 시 해당 날짜 데이터 로드
+    document.getElementById('field-date').addEventListener('change', (e) => {
+      loadBriefingForDate(e.target.value);
+    });
+
+    // 초기 로드 (기사 없으면 빈 폼 표시)
+    articles = [emptyArticle()];
     renderArticles();
+    loadBriefingForDate(today);
 
     // 이벤트
     document.getElementById('btn-add-article').addEventListener('click', () => {
