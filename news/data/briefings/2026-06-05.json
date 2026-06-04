@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-05",
+  "category": "AI",
+  "articles": [
+    {
+      "title": "test",
+      "source": "aitimes",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211341",
+      "bullets": [
+        "테스트입니다."
+      ]
+    }
+  ]
+}
