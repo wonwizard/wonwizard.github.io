@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관리자 — Studio Meta-K 브리핑</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+      background: #f0f2f5;
+      color: #1a1a1a;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    .site-header {
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 0 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .site-header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 52px;
+    }
+    .site-title { font-size: 15px; font-weight: 700; }
+    .header-actions { display: flex; gap: 8px; align-items: center; }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: background 0.15s, opacity 0.15s;
+    }
+    .btn:disabled { opacity: 0.4; cursor: default; }
+    .btn-primary { background: #4f46e5; color: #fff; }
+    .btn-primary:hover:not(:disabled) { background: #4338ca; }
+    .btn-secondary { background: #f3f4f6; color: #374151; }
+    .btn-secondary:hover:not(:disabled) { background: #e5e7eb; }
+    .btn-danger { background: #fee2e2; color: #b91c1c; }
+    .btn-danger:hover:not(:disabled) { background: #fecaca; }
+    .btn-ghost { background: none; color: #6b7280; padding: 4px 8px; }
+    .btn-ghost:hover { background: #f3f4f6; color: #111; }
+
+    /* Main layout */
+    .main { max-width: 800px; margin: 0 auto; padding: 24px; }
+
+    /* Meta row */
+    .meta-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+      align-items: flex-end;
+    }
+    .field { display: flex; flex-direction: column; gap: 4px; }
+    .field label { font-size: 11px; font-weight: 700; color: #6b7280; text-transform: uppercase; letter-spacing: 0.05em; }
+    .field input, .field select {
+      padding: 8px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 14px;
+      background: #fff;
+      outline: none;
+    }
+    .field input:focus, .field select:focus { border-color: #4f46e5; box-shadow: 0 0 0 3px rgba(79,70,229,0.1); }
+
+    /* Article list */
+    .articles-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .articles-header h2 { font-size: 15px; font-weight: 700; }
+
+    /* Article card */
+    .article-card {
+      background: #fff;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+      overflow: hidden;
+    }
+    .article-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .article-card-header:hover { background: #fafafa; }
+    .article-card-title { font-size: 14px; font-weight: 600; flex: 1; }
+    .article-card-title.empty { color: #9ca3af; font-style: italic; }
+    .article-card-body {
+      padding: 0 16px 16px;
+      border-top: 1px solid #f3f4f6;
+      display: none;
+    }
+    .article-card-body.open { display: block; }
+
+    .card-fields { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+    .card-fields input {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 13px;
+      outline: none;
+    }
+    .card-fields input:focus { border-color: #4f46e5; box-shadow: 0 0 0 3px rgba(79,70,229,0.1); }
+
+    /* Bullets */
+    .bullets-section { margin-top: 4px; }
+    .bullets-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+    .bullet-row {
+      display: flex;
+      gap: 6px;
+      align-items: flex-start;
+      margin-bottom: 6px;
+    }
+    .bullet-row textarea {
+      flex: 1;
+      padding: 7px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 13px;
+      line-height: 1.5;
+      resize: vertical;
+      min-height: 60px;
+      font-family: inherit;
+      outline: none;
+    }
+    .bullet-row textarea:focus { border-color: #4f46e5; box-shadow: 0 0 0 3px rgba(79,70,229,0.1); }
+    .add-bullet-btn {
+      margin-top: 4px;
+      font-size: 12px;
+      color: #4f46e5;
+      background: none;
+      border: 1px dashed #c7d2fe;
+      border-radius: 8px;
+      padding: 6px 12px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .add-bullet-btn:hover { background: #eef2ff; }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.45);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 200;
+    }
+    .modal-overlay.hidden { display: none; }
+    .modal {
+      background: #fff;
+      border-radius: 16px;
+      padding: 28px;
+      width: 100%;
+      max-width: 440px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+    .modal h2 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .modal p { font-size: 13px; color: #6b7280; margin-bottom: 20px; line-height: 1.5; }
+    .modal-fields { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+    .modal-fields input {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 14px;
+      outline: none;
+    }
+    .modal-fields input:focus { border-color: #4f46e5; box-shadow: 0 0 0 3px rgba(79,70,229,0.1); }
+    .modal-fields input[type="password"] { letter-spacing: 0.1em; }
+    .modal-footer { display: flex; gap: 8px; justify-content: flex-end; }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 24px; left: 50%;
+      transform: translateX(-50%) translateY(80px);
+      background: #111;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 99px;
+      font-size: 13px;
+      font-weight: 500;
+      z-index: 300;
+      transition: transform 0.25s;
+      white-space: nowrap;
+    }
+    .toast.show { transform: translateX(-50%) translateY(0); }
+    .toast.success { background: #059669; }
+    .toast.error { background: #dc2626; }
+
+    /* Publish status */
+    #publish-status { font-size: 12px; color: #6b7280; }
+
+    @media (max-width: 600px) {
+      .main { padding: 16px; }
+      .meta-row { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header-inner">
+      <span class="site-title">Studio Meta-K 브리핑 — 관리자</span>
+      <div class="header-actions">
+        <span id="publish-status"></span>
+        <button class="btn btn-secondary" id="btn-settings">⚙ 설정</button>
+        <button class="btn btn-primary" id="btn-publish">발행</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Meta row -->
+    <div class="meta-row">
+      <div class="field">
+        <label>날짜</label>
+        <input type="date" id="field-date">
+      </div>
+      <div class="field">
+        <label>카테고리</label>
+        <input type="text" id="field-category" value="AI" style="width:100px">
+      </div>
+    </div>
+
+    <!-- Articles -->
+    <div class="articles-header">
+      <h2>기사 목록</h2>
+      <button class="btn btn-secondary" id="btn-add-article">+ 기사 추가</button>
+    </div>
+    <div id="articles-list"></div>
+  </main>
+
+  <!-- Settings / PAT modal -->
+  <div class="modal-overlay hidden" id="modal-overlay">
+    <div class="modal">
+      <h2>GitHub 설정</h2>
+      <p>GitHub Personal Access Token (repo scope)과 레포지토리 정보를 입력하세요. 브라우저에만 저장되며 서버로 전송되지 않습니다.</p>
+      <div class="modal-fields">
+        <input type="text" id="modal-owner" placeholder="GitHub 사용자명 (owner)">
+        <input type="text" id="modal-repo" placeholder="레포지토리 이름 (repo)">
+        <input type="text" id="modal-branch" placeholder="브랜치 (기본값: main)">
+        <input type="password" id="modal-pat" placeholder="Personal Access Token">
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="modal-cancel">취소</button>
+        <button class="btn btn-primary" id="modal-save">저장</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="../js/admin.js"></script>
+</body>
+</html>
