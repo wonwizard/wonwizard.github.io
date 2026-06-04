@@ -70,20 +70,15 @@
 
   // ── 날짜 선택 시 기존 데이터 로드 ────────────────────────
   async function loadBriefingForDate(date) {
-    const cfg = loadConfig();
-    if (!cfg.pat) return; // 설정 없으면 스킵
-
     const statusEl = document.getElementById('publish-status');
     statusEl.textContent = '불러오는 중...';
 
     try {
-      const { owner, repo, branch, pat } = cfg;
-      const data = await getFileContent(owner, repo, branch, `news/data/briefings/${date}.json`, pat);
+      const res = await fetch(`../data/briefings/${date}.json?v=${Date.now()}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
 
-      // 카테고리 반영
       document.getElementById('field-category').value = data.category || 'AI';
-
-      // 기사 목록 반영
       articles = data.articles.map(a => ({
         title: a.title || '',
         source: a.source || '',
@@ -92,8 +87,7 @@
       }));
       renderArticles();
       statusEl.textContent = `${date} 데이터 로드됨`;
-    } catch (err) {
-      // 해당 날짜 데이터 없음 → 빈 폼으로 초기화
+    } catch {
       articles = [emptyArticle()];
       renderArticles();
       statusEl.textContent = '새 브리핑';
