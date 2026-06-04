@@ -275,6 +275,7 @@
 
       showToast(`${date} 브리핑 발행 완료!`, 'success');
       statusEl.textContent = `마지막 발행: ${date}`;
+      await loadBriefingForDate(date);
     } catch (err) {
       showToast(`발행 실패: ${err.message}`, 'error');
       statusEl.textContent = '';
