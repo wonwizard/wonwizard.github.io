@@ -83,7 +83,7 @@
 
     let dates;
     try {
-      const res = await fetch(`${DATA_ROOT}/index.json`);
+      const res = await fetch(`${DATA_ROOT}/index.json?v=${Date.now()}`);
       ({ dates } = await res.json());
     } catch {
       feed.innerHTML = '<p class="state-msg">데이터를 불러올 수 없습니다.</p>';
@@ -95,7 +95,7 @@
     updateDateNav(dates, date);
 
     try {
-      const res = await fetch(`${DATA_ROOT}/briefings/${date}.json`);
+      const res = await fetch(`${DATA_ROOT}/briefings/${date}.json?v=${Date.now()}`);
       if (!res.ok) throw new Error();
       const data = await res.json();
       renderBriefing(data);
