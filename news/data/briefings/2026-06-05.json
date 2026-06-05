@@ -82,6 +82,15 @@
         "Bagel Labs가 세계 최초의 영상 생성을 위한 분산 확산 모델(DDM)인 Paris 2.0을 공개. ",
         "여러 개의 독립적인 확산 모델이 각자 데이터 일부를 분산 학습한 뒤 추론 단계에서 라우터가 필요한 전문가 모델을 선택하는 구조 사용."
       ]
+    },
+    {
+      "title": "NAVA (Baidu): Native Audio-Visual Alignment for Generation",
+      "source": "Baidu ERNIE",
+      "url": "https://ernie-research.github.io/NAVA/",
+      "bullets": [
+        "Baidu ERNIE 팀이 단 6.3B 파라미터만으로 최첨단 오디오-비주얼 동기화를 구현하는 네이티브 정렬 프레임워크 NAVA 발표.",
+        "작은 크기의 모델이지만 소리와 영상이 완벽하게 일치하는 고화질 동영상을 효율적으로 만들어내는 기술. 오픈소스 모델로 공개 (License apache-2.0)."
+      ]
     }
   ]
 }
