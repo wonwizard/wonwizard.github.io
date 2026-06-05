@@ -102,7 +102,7 @@ body {
 
 .section-brand {
   font-size: 11px;
-  color: #9ca3af;
+  color: #1a1a1a;
   letter-spacing: 0.02em;
 }
 
@@ -117,7 +117,7 @@ body {
 
 .section-time {
   font-size: 12px;
-  color: #9ca3af;
+  color: #1a1a1a;
 }
 
 /* Article card */
@@ -154,7 +154,7 @@ body {
 
 .article-source {
   font-size: 11px;
-  color: #9ca3af;
+  color: #1a1a1a;
   white-space: nowrap;
   padding-top: 2px;
   flex-shrink: 0;
@@ -194,14 +194,14 @@ body {
   content: '•';
   position: absolute;
   left: 0;
-  color: #9ca3af;
+  color: #1a1a1a;
 }
 
 /* Loading / error */
 .state-msg {
   text-align: center;
   padding: 60px 0;
-  color: #9ca3af;
+  color: #1a1a1a;
   font-size: 14px;
 }
 
