@@ -7,8 +7,8 @@
       "source": "reve blog",
       "url": "https://blog.reve.com/posts/the-layout-bet/",
       "bullets": [
-        "4K 이미지 모델로, 정밀한 레이아웃을 활용해 어떤 이미지든 생성하고 편집할 수 있는 새로운 방식. ",
-        "Arena Text-to-Image에서 Nano Banana 2를 제치고 2위를 달성 (1위는 gpt-image-2)"
+        "4K 이미지 모델로, 정밀한 레이아웃을 활용해 어떤 이미지든 생성하고 편집할 수 있는 새로운 방식 Reve 2.0 발표. ",
+        "Arena Text-to-Image에서 Nano Banana 2를 제치고 2위 달성 (1위는 gpt-image-2)"
       ]
     },
     {
@@ -16,8 +16,8 @@
       "source": "dreamina",
       "url": "https://dreamina.capcut.com/ai-tool/octo",
       "bullets": [
-        "Dreamina Octo가 Dreamina Seedance 2.0 AI video와 함께 정식 베타 서비스를 시작합니다. ",
-        "창의적인 에이전트와 함께 ‘Vibe Creating’을 하는 느낌입니다. 대화를 통해 아이디어를 탐구하고, 시각적으로 정리하면서, 명확한 창작 방향으로 이끌어 갈수 있습니다."
+        "Dreamina Octo가 Dreamina Seedance 2.0 AI video와 함께 정식 베타 서비스를 시작. ",
+        "창의적인 에이전트와 함께 ‘Vibe Creating’을 하는 느낌. 대화를 통해 아이디어를 탐구하고, 시각적으로 정리하면서, 명확한 창작 방향으로 이끌어 가기 가능."
       ]
     },
     {
@@ -25,7 +25,62 @@
       "source": "theriver.jp",
       "url": "https://theriver.jp/spielberg-ai-as-a-tool",
       "bullets": [
-        "스티븐 스필버그 감독은 AI를 효율적인 실무 도구로 사용할 수는 있지만, 창작의 최종 판단을 내리는 주체가 되어서는 안 된다고 밝혔습니다."
+        "스티븐 스필버그 감독은 AI를 효율적인 실무 도구로 사용할 수는 있지만, 창작의 최종 판단을 내리는 주체가 되어서는 안 된다고 밝혀.",
+        "시간과 노력이 많이 드는 제작 단계의 작업에서는 AI가 큰 도움."
+      ]
+    },
+    {
+      "title": "Ideogram_ai Opened Ideogram 4.0, DesignArena top1 in open-weight text-to-image model",
+      "source": "ideogram-ai",
+      "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+      "bullets": [
+        "Typography과 graphic design 이미지 생성에서 강세를 보였던 Ideogram이 최신 4.0 버전 모델을 오픈.",
+        "DesignArena에서 text-to-image 오픈 모델중에 1위.   ",
+        "*라이센스 확인해 보니 Non-commercial 라이센스임 주의."
+      ]
+    },
+    {
+      "title": "Microsoft released MAI Image-2.5, Arena Image editing Top2",
+      "source": "microsoft.ai",
+      "url": "https://microsoft.ai/news/introducing-mai-image-2-5/",
+      "bullets": [
+        "MS가 6월 2일 발표한 텍스트 기반 이미지 생성과 이미지 편집 기능을 모두 지원  이미지 생성 모델 MAI Image-2.5 발표. ",
+        "Arena 이미지 편집 부문 2위, 텍스트-이미지 변환 부문 3위로, 편집에서 GPT-Image 2를 이어 2위를 하고, Nano Banana Pro를 능가했다고 밝혀."
+      ]
+    },
+    {
+      "title": "Bernini, Latent Semantic Planning for Video Diffusion",
+      "source": "bernini-ai",
+      "url": "https://bernini-ai.github.io/",
+      "bullets": [
+        "ByteDance가 MLLM 기반 의미론적 플래너와 DiT 기반 렌더러를 결합한 영상 생성 및 편집을 위한 통합 프레임워크 Bernini 공개. ",
+        "오픈소스 공개 (Apache-2.0 license)."
+      ]
+    },
+    {
+      "title": "Nvidia released Cosmos 3: first fully open omnimodel world model for Physical AI",
+      "source": "NVIDIAAI",
+      "url": "https://x.com/NVIDIAAI/status/2061308434629132553",
+      "bullets": [
+        "Nvidia가 Physical AI를 위한 Nvidia의 최신 프론티어 모델로, 네이티브 비전 추론 및 월드 및 액션 생성 기능을 갖춘 세계 최초의 완전 개방형 옴니모델 Cosmos 3 발표. ",
+        "Super(32B) 및 Nano(8B) 버전 공개."
+      ]
+    },
+    {
+      "title": "FastVideo open-sourced DreamVerse for REALTIME video generation",
+      "source": "haoailab.com",
+      "url": "https://haoailab.com/blogs/fastvideo-dreamverse-release/",
+      "bullets": [
+        "UCSD의 Hao AI Lab이 개발한 'FastVideo Dreamverse'는 사용자가 자연어로 즉각 개입하여 영상을 실시간으로 수정하고 연장할 수 있는 웹 브라우저 기반의 오픈소스 동영상 생성·편집 기술을 발표."
+      ]
+    },
+    {
+      "title": "Paris 2.0, A Decentralized Diffusion Model for Video Generation",
+      "source": "bageldotcom",
+      "url": "https://huggingface.co/bageldotcom/paris2",
+      "bullets": [
+        "Bagel Labs가 세계 최초의 영상 생성을 위한 분산 확산 모델(DDM)인 Paris 2.0을 공개. ",
+        "여러 개의 독립적인 확산 모델이 각자 데이터 일부를 분산 학습한 뒤 추론 단계에서 라우터가 필요한 전문가 모델을 선택하는 구조 사용."
       ]
     }
   ]
