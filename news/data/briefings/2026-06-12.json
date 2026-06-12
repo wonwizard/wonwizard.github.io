@@ -1,0 +1,94 @@
+{
+  "date": "2026-06-12",
+  "category": "AI",
+  "articles": [
+    {
+      "title": "한국과 AI 프로덕션: 김광집(STUDIO META-K)가 이야기하는 영화 제작 경제학의 재해석",
+      "source": "WWDC",
+      "url": "https://www.linkedin.com/pulse/south-korea-ai-production-kj-kim-reimagining-noah-kadner-wwdc-3tp3c",
+      "bullets": [
+        "할리우드 창작계와 AI 개발자, 기술 투자자들이 한자리에 모이는 연례 행사인 ‘AI on the Lot 2026’에서, STUDIO META-K Inc.의 CEO이자 설립자인 김광집씨와 대화. ",
+        "서울에 본사를 둔 이 제작사는 조용히 전 세계에서 가장 활발한 AI 기반 콘텐츠 스튜디오 중 하나로 자리매김."
+      ]
+    },
+    {
+      "title": "Luma released Ray 3.2, video model ",
+      "source": "Luma AI",
+      "url": "https://x.com/LumaLabsAI/status/2064389582997897216",
+      "bullets": [
+        "LumaAI가 새로운 영상 모델  Ray 3.2 발표.",
+        "Multi-keyframe control, HDR + EXR outputs 등 Video to Video 강한 기능들 소개. "
+      ]
+    },
+    {
+      "title": "SCAIL-2(Zai/TsinghuaUniv), Controlled character animation",
+      "source": "Z ai",
+      "url": "https://teal024.github.io/SCAIL-2/",
+      "bullets": [
+        "Zai와 Tsinghua대학이 엔드투엔드 제어형 캐릭터 애니메이션을 위한 오픈소스 모델 SCAIL-2 발표. ",
+        "참조 캐릭터에 움직임 영상을 적용해 애니메이션을 생성하며, 중간 포즈 표현에 의존하지 않고도 캐릭터 교체 및 다중 캐릭터 시나리오를 지원. "
+      ]
+    },
+    {
+      "title": "2주 만에 7억으로 SF대작 뚝딱!‥칸 영화제 침공한 AI영화(MBCNEWS)",
+      "source": "MBCNEWS",
+      "url": "https://www.youtube.com/watch?v=-ORVH4rvW_g",
+      "bullets": [
+        "한 달 전, 세계 최대 영화제 깐느 영화제에서도 AI 영화가 단연 화제"
+      ]
+    },
+    {
+      "title": "MAMMA: Markerless & Automatic Multi-Person Motion Action Capture ",
+      "source": "MPI-IS",
+      "url": "https://mamma.is.tue.mpg.de",
+      "bullets": [
+        "MPI-IS와 Carnegie Mellon 대학에서 여러 대의 카메라 영상에서 센서(마커) 없이 인간의 3D 움직임을 정밀하게 캡처하는 AI 기술 MAMMA 발표.",
+        "아이폰 4대만으로도 실내외에서 인간의 3D 모션을 캡처할 수 있음. (non-commercial license)"
+      ]
+    },
+    {
+      "title": "New Video Model \"PURPLE\" appears in Artificial Analysis",
+      "source": "",
+      "url": "https://x.com/BrentLynch/status/2062570878312010028",
+      "bullets": [
+        "신원 미상의 AI 비디오 모델 \"PURPLE\"이 Artificial Analysis의 블라인드 테스트에 등장. ",
+        "아직 순위에는 나오지 않았으나 여러 추측들만 나오는 상황."
+      ]
+    },
+    {
+      "title": "거장 마틴 스콜세지 \"AI로 창의적 자유 얻어\"…할리우드 논쟁 격화 ",
+      "source": "aitimes.com",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211432",
+      "bullets": [
+        "\"스토리보드를 시각화하고 즉시 공유할 수 있다는 점에서 창의적인 면의 큰 자유를 얻었다\" ",
+        "할리우드에서 AI 도입을 둘러싼 시각은 아직 극명하게 갈리는 추세. "
+      ]
+    },
+    {
+      "title": "'Nexus' Teaser Video with Dreamina AI Octo & Seedance 2.0",
+      "source": "PJ Ace",
+      "url": "https://x.com/PJaccetturo/status/2062887190326304986",
+      "bullets": [
+        "PJ Ace가 AI 이용해 제작한 앞으로 나올 하이브리드 장편 영화인 'Nexus'를 발표.",
+        "이 영상은 2주 동안 3명이 제작한 5분 분량의 티저 영상으로 Octo 및 Dreamina Seedance 2.0로 제작"
+      ]
+    },
+    {
+      "title": "Three new models entered the Image Arena Top 10 ",
+      "source": "Arena",
+      "url": "https://x.com/arena/status/2062957421757452516",
+      "bullets": [
+        "최근에 새롭게 3개의 이미지 생성 모델이 Arena Top 10에 들어감.",
+        "top2 Reve 2.0 (Reve), top4 MAI-Image-2.5 (Microsoft),  top9 Ideogram 4.0 (Ideogram_ai)"
+      ]
+    },
+    {
+      "title": "Alibaba, Qwen-Image-Flash few-step distillation Image ",
+      "source": "1",
+      "url": "1",
+      "bullets": [
+        "1"
+      ]
+    }
+  ]
+}
