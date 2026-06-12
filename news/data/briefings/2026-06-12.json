@@ -48,7 +48,7 @@
     },
     {
       "title": "New Video Model \"PURPLE\" appears in Artificial Analysis",
-      "source": "",
+      "source": "Artificial Analysis",
       "url": "https://x.com/BrentLynch/status/2062570878312010028",
       "bullets": [
         "신원 미상의 AI 비디오 모델 \"PURPLE\"이 Artificial Analysis의 블라인드 테스트에 등장. ",
@@ -80,14 +80,6 @@
       "bullets": [
         "최근에 새롭게 3개의 이미지 생성 모델이 Arena Top 10에 들어감.",
         "top2 Reve 2.0 (Reve), top4 MAI-Image-2.5 (Microsoft),  top9 Ideogram 4.0 (Ideogram_ai)"
-      ]
-    },
-    {
-      "title": "Alibaba, Qwen-Image-Flash few-step distillation Image ",
-      "source": "1",
-      "url": "1",
-      "bullets": [
-        "1"
       ]
     }
   ]
