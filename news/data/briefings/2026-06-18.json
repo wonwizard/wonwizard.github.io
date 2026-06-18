@@ -1,0 +1,526 @@
+{
+  "date": "2026-06-18",
+  "category": "AI",
+  "articles": [
+    {
+      "title": "hwpxskill, 한컴오피스 HWPX for AI agent",
+      "source": "2026.06.17",
+      "url": "https://github.com/Canine89/hwpxskill",
+      "bullets": [
+        "한컴오피스 HWPX 문서를 AI 코딩 에이전트에서 다룰 수 있게 해주는 스킬입니다.",
+        "원본 HWPX 파일을 넣으면 스타일, 표 구조, 셀 병합, 여백까지 분석해서 구조를 보존한 채 내용만 바꿔줍니다. 원본이 없으면 공문, 보고서 같은 내장 템플릿으로 새 문서를 만들 수도 있고요. 다 만들고 나면 page_guard.py가 원본 대비 페이지 수가 달라졌는지 자동으로 잡아냅니다."
+      ]
+    },
+    {
+      "title": "Kling 3.0 Turbo Released & O3 Upgrades",
+      "source": "2026.06.17",
+      "url": "https://x.com/ComfyUI/status/2067436226987327900",
+      "bullets": [
+        "Kling 3.0 Turbo는 더 빠른 생성 속도, 더 낮은 비용, 뛰어난 립싱크, 안정적인 동작을 제공.",
+        "Kling Omni는 업그레이드되어 더 강력한 프롬프트 및 참조 자료 일관성, 최대 15초 분량의 클립을 풀 4K 화질로 생성 가능."
+      ]
+    },
+    {
+      "title": "Google New Image Model, 'Instant-ramen'",
+      "source": "2026.06.17",
+      "url": "https://x.com/chetaslua/status/2067197698542084427",
+      "bullets": [
+        "구글의 Nano Banana 후속 이미지 모델로 보이는 코드명 'Instant-ramen'가 Arena에 등장했다고 하네요.",
+        "GPT-Image에 밀려 있는 분위기였는데 넘어설수 있을지 기대됩니다."
+      ]
+    },
+    {
+      "title": "ByteDance is planning to release Seedance 2.5 in early July",
+      "source": "2026.06.17",
+      "url": "https://x.com/chetaslua/status/2067278199172804717",
+      "bullets": [
+        "Seedance 2.5가 7월초에 나올 것이라는 소식이 있네요.",
+        "2.5 버전은 15초보다 긴 영상 생성을 지원할 예정이고, Seedance 2.0은 조만간 4K 지원 기능을 추가할 것으로 예상된다고 합니다."
+      ]
+    },
+    {
+      "title": "LTX Trainer released. Video LoRA & IC-LoRA!",
+      "source": "2026.06.17",
+      "url": "https://github.com/Lightricks/LTX-2/tree/main/packages/ltx-trainer",
+      "bullets": [
+        "단일 프레임워크에서 비디오, 오디오, 크로스모달 및 참조 조건부 워크플로우 전반에 걸쳐 LoRA와 IC-LoRA를 훈련가능합니다.",
+        "대부분의 모델은 범용적이지만 이를 통해 개인화가 가능해집니다."
+      ]
+    },
+    {
+      "title": "Alibaba released HappyOyster 1.0, real-time World Model!",
+      "source": "2026.06.17",
+      "url": "https://x.com/HappyOysterAI/status/2067172393202983023",
+      "bullets": [
+        "Alibaba가 발표한 Happy Oyster 1.0은 실시간 세계 생성 및 상호 작용을 위한 개방형 세계 모델입니다.",
+        "실시간 상호 작용: 가상 동반자와 채팅을 나눌수 있습니다. 입력하는 모든 문구가 경험을 바꿔줍니다."
+      ]
+    },
+    {
+      "title": "알리바바, 로봇 AI 'Qwen-Robot-Suite' 발표…챗봇 넘어 '피지컬 AI' 본격 진출",
+      "source": "2026.06.17",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211827",
+      "bullets": [
+        "알리바바는 16일 ▲실제 물체 조작을 수행하는 'Qwen-RobotManip' ▲물리 환경의 변화를 예측·시뮬레이션하는 월드 모델 'Qwen-RobotWorld' ▲이동과 공간 이해를 담당하는 'Qwen-RobotNav' 등 3개의 로봇용 파운데이션 모델로 구성된 Qwen-Robot-Suite 발표.",
+        "로봇은 관측 정보와 행동 데이터를 각자 다른 방식으로 기록하기 때문에 한 로봇에서 학습한 정책이 다른 로봇으로 쉽게 이전되지 않는 문제. 이를 해결하기 위해 세 모델의 용도를 구분."
+      ]
+    },
+    {
+      "title": "\"클로드가 짜준 코드로 30분 만에 기능 구현했을 때, 진짜 내가 천재 개발자가 된 줄 알았다. 실제 사용자를 받는 서비스를 런칭했다. 그 달콤한 '바이브'가 지옥으로 바뀌는 데는 일주일도 걸리지 않았다.\" -@seum_branding",
+      "source": "2026.06.17",
+      "url": "https://www.threads.com/@seum_branding/post/DZsZ08vk-ki",
+      "bullets": [
+        "물론 모두 이렇진 않을 것이고, 충분한 문서화, 도메인 이해가 없거나, 제대로 바이브 코딩 활용 못해서다 반박될 수도 있지만 어쨋든 실제 있을 수 있는 상황일 듯 합니다.",
+        "자기가 짠 일반 코딩에서도 에러 디버깅이나 성능 개선 등 최적화는 정말 어려울 때가 종종 일어나기 때문입니다."
+      ]
+    },
+    {
+      "title": "Zai GLM-5.2 ArtificialAnalysis Top4, Coding Top7, Agentic Top3",
+      "source": "2026.06.17",
+      "url": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index",
+      "bullets": [
+        "중국 Zai의 GLM-5.2가 ArtificialAnalysis에서 Claude Fable 5, Opus 4.8, GPT-5.5에 이어 4등을 하면서, Google Gemini 3.5 Flash마저 앞질렀네요.",
+        "Coding 분야에서는 Claude, GPT, Gemini 등에 뒤지며 7등. Anthropic, OpenAI, Google 를 제외한 다른 것들보다는 가장 앞선 성적."
+      ]
+    },
+    {
+      "title": "Ponytail plugin for AI coding, 80-94% less code · 3-6× faster · 42-75% cheaper",
+      "source": "2026.06.17",
+      "url": "http://github.com/DietrichGebert/ponytail",
+      "bullets": [
+        "AI가 작성한 코드량을 80-94% 줄이고, 속도를 3-6배 높이며, 비용을 47-77% 절감합니다. 최근 또 하나의 오픈소스 프로젝트가 뜨거워졌습니다(Star가 폭증). 크레딧도 비싸고 속도도 느린 AI Coding할 때 꼭 적용해 볼만 합니다.",
+        "AI로 코드를 작성할 때, 간단한 요구사항이 분명히 몇 줄의 코드로 구현할 수 있는데도 AI는 수백 줄의 코드를 뱉어내서 코드가 비대하고 유지보수가 어렵게 됩니다. 그래서 AI에게 의사결정 우선순위 시스템을 추가했습니다. 코드를 작성하기 전에 먼저 AI가 한 번 검토하게 해서, 이런 것들을 작성할 필요가 없는 이유가 있는지 찾아보게 합니다."
+      ]
+    },
+    {
+      "title": "Grok Imagine Video 1.5 released",
+      "source": "2026.06.17",
+      "url": "https://x.com/xai/status/2067092897951109427",
+      "bullets": [
+        "더욱 선명한 사실감, 향상된 물리 엔진, 그리고 빠른 생성 속도를 갖춘 새로운 이미지-비디오 변환 모델입니다.",
+        "720p 동영상은 이제 약 25초 만에 렌더링되며, 이는 이전 모델의 40초 이상에서 단축된 것입니다."
+      ]
+    },
+    {
+      "title": "Seedance 2.0 vs Fast vs Mini by KanaWorks_AI",
+      "source": "2026.06.17",
+      "url": "https://x.com/KanaWorks_AI/status/2066691843828715598",
+      "bullets": [
+        "X KanaWorks_AI님의 Seedance 2.0 vs Fast vs Mini 비교 영상.",
+        "프롬프트 재현도는 Fast와의 차이를 거의 느끼지 못했지만, Seedance 2.0보다는 못하기 때문에 사전 점검용으로 좋을 것 같다는 의견."
+      ]
+    },
+    {
+      "title": "AI Animation where the sky and earth turn upside down by yori03617",
+      "source": "2026.06.17",
+      "url": "https://x.com/yori03617/status/2066837768278548526",
+      "bullets": [
+        "X yori03617님이 만든 하늘과 땅이 뒤집혀서 하늘로 떨어져 가는 세계의 AI 애니메이션. 상상을 발휘하기 좋은 툴이 AI Video가 아닐까 합니다. seedance 2.0으로 제작되었다고 합니다.",
+        "출처: https://x.com/yori03617/status/2066837768278548526"
+      ]
+    },
+    {
+      "title": "SpaceX is acquiring Cursor in a $60 billion all-stock deal.",
+      "source": "2026.06.17",
+      "url": "https://x.com/cb_doge/status/2066838115365577125",
+      "bullets": [
+        "SpaceX가 600억 달러 규모의 전액 주식 거래를 통해 커서(Cursor)를 인수하기로 했습니다.",
+        "Cursor는 세계 최고의 AI 코딩 플랫폼 중 하나이자 가장 빠르게 성장하는 소프트웨어 기업 중 하나입니다. 이번 인수는 사상 최대 규모의 AI 인수합병 중 하나로, SpaceX의 AI 분야 입지를 크게 확대할 수도 있습니다."
+      ]
+    },
+    {
+      "title": "McDonald vs KFC AI video by rioaigc",
+      "source": "2026.06.17",
+      "url": "https://x.com/rioaigc/status/2066099616077222040",
+      "bullets": [
+        "X rioaigc란 분이 만든 재미있는 AI video. 재미나 흥미를 주는 콘텐츠가 좋은 영상이 아닐까 싶습니다."
+      ]
+    },
+    {
+      "title": "GLM-5.2 vs Opus 4.8, Game Generation (source X aimlapi)",
+      "source": "2026.06.17",
+      "url": "https://x.com/aimlapi/status/2066996493257408639",
+      "bullets": [
+        "GLM-5.2와 Opus 4.8에 동일한 프롬프트를 주어, 한 번에 플레이 가능한 ‘Backrooms’ 게임을 생성하도록 요청했습니다.",
+        "Opus는 손전등을 작동시켰지만, 달릴 수도 없고 일시 정지할 수도 없습니다. GLM-5.2는 게임의 전체 메커니즘을 구현했습니다."
+      ]
+    },
+    {
+      "title": "Zai open GLM-5.2 Weights, Code Arena Top2",
+      "source": "2026.06.17",
+      "url": "http://huggingface.co/zai-org/GLM-5.2",
+      "bullets": [
+        "중국 Zai가 최신 프론티어 모델인 GLM-5.2을 허깅페이스에 오픈소스(MIT-license)로 오픈했습니다. 또한 Code Arena Frontend 부문에서 2위를 차지했습니다. Claude Opus 4.7 (Thinking)보다 높은 점수를 기록했으며, Fable 5에 이어 2위를 차지했습니다! GLM-5.2는 Kimi-K2.6 및 Minimax-M3와 비교했을 때 압도적인 차이로 최고의 오픈 소스 모델로 꼽힙니다.",
+        "Significant improvements in coding and agentic tasks"
+      ]
+    },
+    {
+      "title": "AI 미녀를 위한 상반신 실루엣 도감",
+      "source": "2026.06.16",
+      "url": "https://x.com/AI_money_club/status/2064180692708192528",
+      "bullets": [
+        "\"크기보다 형태, 중력, 옷의 핏에 따라 리얼함이 달라진다.\"",
+        "출처 : https://x.com/AI_money_club/status/2064180692708192528"
+      ]
+    },
+    {
+      "title": "Seedance2.0 vs Fast vs Mini",
+      "source": "2026.06.16",
+      "url": "https://x.com/neco1751662/status/2066715027340767589",
+      "bullets": [
+        "X의 neco1751662님이 테스트한 결과입니다.",
+        "\"Dreamina에 Seedance2.0 Mini가 나왔길래 같은 프롬프트로 2.0 / 2.0 fast / 2.0 mini를 비교해봤어요!"
+      ]
+    },
+    {
+      "title": "SwiftVR: Real-Time One-Step Generative Video Restoration (upscale)",
+      "source": "2026.06.16",
+      "url": "https://h-oliday.github.io/SwiftVR/",
+      "bullets": [
+        "중국대학이 발표한 SwiftVR은 소비자용 GPU에서 실시간 1080p 스트리밍을 구현한 최초의 생성형 영상 복원 모델로(RTX 5090 단일 카드 기준 약 26 FPS), QHD(2560×1440) 해상도에서 31 FPS, 4K (3840×2160)에서 14 FPS를 유지하며, 비교 대상인 모든 확산 기반 VR 베이스라인 모델이 메모리 부족에 직면하는 해상도에서도 스트리밍이 가능합니다. 오픈소스 공개(License: apache-2.0)",
+        "26fps 1920×1080 · RTX 5090, 14fps 3840×2160 · H100"
+      ]
+    },
+    {
+      "title": "Storyboard to AI Animation by Seedance 2 vs Seedance 2 mini (included prompt)",
+      "source": "2026.06.16",
+      "url": "https://www.facebook.com/share/v/18TjiixGK6/",
+      "bullets": [
+        "GPT-Image2 storyboard(with charactersheet) image prompt : Attached below",
+        "Seedance 2 video prompt : Attached below"
+      ]
+    },
+    {
+      "title": "Seedance 2.0 vs Seedance 2.0 Mini comparison",
+      "source": "2026.06.16",
+      "url": "https://x.com/JSFILMZ0412/status/2066595569154380105",
+      "bullets": [
+        "source: https://x.com/JSFILMZ0412/status/2066595569154380105",
+        "full video : https://www.youtube.com/watch?v=zQa3dDek8Mg"
+      ]
+    },
+    {
+      "title": "Face Swap & De-aging Video Workflow in ComfyUI",
+      "source": "2026.06.16",
+      "url": "https://comfy.org/workflows/93f286fbc2c8-93f286fbc2c8/",
+      "bullets": [
+        "Florence 2 → SAM2 → WAN Video. 단일 파이프라인. 모든 프레임에서 일관성을 유지합니다.",
+        "단순한 픽셀 교체 방식이 아닙니다. 이 워크플로는 머리를 감지하고 분할한 후, 원본 연기의 모션을 적용하며, 참조 이미지 및 자동 프롬프트를 사용하여 조명과 타이밍을 유지한 채 인물을 전환합니다."
+      ]
+    },
+    {
+      "title": "seedance2 skill, create best prompts for generating videos with seedance2.0",
+      "source": "2026.06.16",
+      "url": "https://github.com/dexhunter/seedance2-skill",
+      "bullets": [
+        "Seedance 2.0을 위한 효과적인 영상 생성 프롬프트 작성 요령. Claude Code, Cursor, Cline 및 기타 호환 가능한 에이전트와 함께 사용할 수 있습니다.",
+        "입력 제약 조건, @ 참조 구문, 카메라 관련 용어, 프롬프트 구조 패턴은 물론, 광고, 드라마, 뮤직비디오, 교육 콘텐츠 등을 위한 즉시 사용 가능한 템플릿을 다룹니다."
+      ]
+    },
+    {
+      "title": "Seedance 2.0 Mini released!",
+      "source": "2026.06.16",
+      "url": "https://x.com/capcutapp/status/2066551490307907707",
+      "bullets": [
+        "Fast 보다 2배 빠르고 더 저렴하나 Fast와 비슷한 성능.",
+        "Dreamina Seedance 2.0 720P, 10seconds 가격 비교"
+      ]
+    },
+    {
+      "title": "\"People laughed and said it was cosplay, but it was real.\" AI Video (inclued prompt)",
+      "source": "2026.06.15",
+      "url": "https://www.facebook.com/share/v/18pTJXNnJP/",
+      "bullets": [
+        "사람들이 코스플레이라고 비웃었는데 진짜였다."
+      ]
+    },
+    {
+      "title": "AI로 한달동안 앱 30개 만들어 얼나마 벌었을까?",
+      "source": "2026.06.15",
+      "url": "https://www.youtube.com/watch?v=U2IWZH7QB3Y",
+      "bullets": [
+        "15년 개발자가 퇴사후 한 달 동안 AI앱 만들고 수익 실험한 내용을 공유하였습니다.",
+        "최종 매출은 15.43달러, 애플 수수료를 빼면 실제 남는 돈은 약 10달러(15,000원),"
+      ]
+    },
+    {
+      "title": "World Tracing (World Labs): Generative Pixel-Aligned Geometry Beyond the Visible",
+      "source": "2026.06.15",
+      "url": "https://haoz19.github.io/world-tracing-page/",
+      "bullets": [
+        "한 장의 이미지에서 숨겨진 뒷면까지 완전한 3D 공간을 생성하는 기술. 계층적 기하 구조(layered geometry)를 활용한 흐름 매칭 확산(flow-matching diffusion)을 통한 Image-to-3D 포인트 클라우드 예측. 단일 전방 연산으로 가시 표면과 그 뒤의 (부분적으로) 가려진 표면을 모두 포괄하는 L개의 정렬된 XYZ 맵이 생성되며, 이는 단일 단일 깊이 맵보다 더 풍부한 3D  scaffold를 제공합니다. NonCommercial 오픈.",
+        "The released checkpoints"
+      ]
+    },
+    {
+      "title": "AI Animation workflow: Claude Script + MJ Charaters + Runway animation + ElevenLabs dubbing + Suno Sound",
+      "source": "2026.06.15",
+      "url": "https://x.com/0x_fokki/status/2065788471151657317",
+      "bullets": [
+        "AI가 애니메이션 제작 파이프라인 전체를 대체했습니다",
+        "→ script: Claude, 10 min"
+      ]
+    },
+    {
+      "title": "MoVerse turns an image into a navigable 3D world. Runs at 8 FPS on a single RTX 4090.",
+      "source": "2026.06.15",
+      "url": "https://orange-3dv-team.github.io/MoVerse/",
+      "bullets": [
+        "MoVerse는 단일 입력 이미지로부터 탐색 가능한 3D 세계를 구축하고, 단일 RTX 4090에서 실시간으로 상호작용이 가능한 영상을 렌더링합니다. 3단계 파이프라인을 통해 세계 구축과 관찰 렌더링을 분리함으로써, 일관성 있고 사실적인 자유 탐색형 영상 투어를 생성합니다. 오픈 예정.",
+        "Panoramic Generation: 토폴로지 인식 잠재 확산(topology-aware latent diffusion)을 통해 단일 NFOV 이미지를 중력에 정렬되고 수평적으로 주기적인 360° ERP 파노라마로 확장합니다."
+      ]
+    },
+    {
+      "title": "Zai released GLM-5.2, Open-source (MIT License)",
+      "source": "2026.06.15",
+      "url": "https://x.com/Zai_org/status/2065704919299235870",
+      "bullets": [
+        "새로운 플래그십 모델인 GLM-5.2는 강력한 코딩 기능, 100만 단어 컨텍스트 지원, 그리고 장기 과제에서 지속적인 강점을 제공합니다.",
+        "GLM-5.2는 Lite, Pro, Max, Team 플랜을 포함한 모든 GLM 코딩 플랜 사용자에게 제공됩니다."
+      ]
+    },
+    {
+      "title": "AMD Ryzen AI Halo, powered by Ryzen AI Max+ 395",
+      "source": "2026.06.15",
+      "url": "https://x.com/precisox/status/2066276671586513317",
+      "bullets": [
+        "AMD가 로컬 AI에 강력한 한 방을 날렸습니다. Lisa Su가 무대에 올라 한 손에 두꺼운 책 크기의 미니 PC를 들고 등장해 2350억 개 파라미터 모델을 라이브로 실행했습니다. 데이터센터 없이. 클라우드 없이. GPU를 빌리지 않고.",
+        "주인공은 Ryzen AI Max+ 395 (Strix Halo)입니다. CPU와 GPU를 결합한 최초의 x86 칩으로 128GB 통합 메모리를 탑재했습니다. Linux에서는 GPU가 그 메모리의 \\~110GB까지 사용할 수 있습니다."
+      ]
+    },
+    {
+      "title": "Open Design 새 공식 웹사이트 정식 출시, Claude Design의 최고의 오픈소스 대안",
+      "source": "2026.06.15",
+      "url": "https://open-design.ai/",
+      "bullets": [
+        "Figma와 Claude Design의 에이전트 네이티브 대안. 데스크톱 우선, 21개 코딩 에이전트, 129개 디자인 시스템, 오픈소스 Apache-2.0.",
+        "아이디어에서 프로토타입, 웹, 슬라이드, HTML 영상까지 — 제품 디자인 전 과정을 내 컴퓨터에서 완성합니다."
+      ]
+    },
+    {
+      "title": "Seedance 2.0 Mini is coming!",
+      "source": "2026.06.15",
+      "url": "https://www.facebook.com/share/p/1EuJoTFVHW/",
+      "bullets": [
+        "Seedance 2.0 Mini가 출시 예정이라고 합니다. 아직 모델 선택에 보이지는 않습니다.",
+        "보다 저렴하다고 하는데, 품질은 어느정도 일지, fast 와는 어떻게 다를지 궁금하네요."
+      ]
+    },
+    {
+      "title": "중국 숏폼 단속과 유럽의 버티컬 드라마(세로 화면 드라마) 전문 제작 부문이 문을 열고, 헐리우드는 이미 달아올라. — 규제받을 만큼 커졌다는 신호",
+      "source": "2026.06.14",
+      "url": "https://blog.naver.com/colorist_ethan",
+      "bullets": [
+        "중국 방송 규제기구 NRTA가 6월 1일부터 두 달간 숏폼 드라마 단속에 들어감. 숏폼 드라마는 1\\~2분짜리 에피소드를 수십 개씩 엮은 버티컬 드라마.",
+        "왜곡된 결혼관, 배금주의, 폭력 복수, 선정성, 미신, 미성년 유해물, 저속·낚시성 제목, 저작권 침해. '재벌 회장과 가난한 여주인공' 류의 단골 설정이 주요 대상."
+      ]
+    },
+    {
+      "title": "Creating a video by using a storyboard prompt generator in Claude Fable 5",
+      "source": "2026.06.13",
+      "url": "https://x.com/tanabe_fragm/status/2065307981122834656",
+      "bullets": [
+        "tanabe_fragm이란 분이 Claude Fable 5을 이용하여 스토리보드용 프롬프트 생성기를 만들어 영상을 생성한 예입니다. 스킬화도 시켰구요. 이제 이런식의 진행히 많이 퍼질지도 모르겠습니다.",
+        "tanabe_fragm: \"폼에 필요 사항을 입력하기만 하면, GPT Images 2.0용 프롬프트를 자동 생성합니다. Skill로 만들어 놓으면, 언제든 호출할 수 있어서 꽤 편리해요. 생성한 스토리보드를 참조해서, Seedance 2.0으로 영상화한 게 여기 있어요.\""
+      ]
+    },
+    {
+      "title": "Moonshot released Kimi-K2.7-Code",
+      "source": "2026.06.13",
+      "url": "https://kimi.com/code",
+      "bullets": [
+        "Moonshot이 Kimi-K2.7-Code 최신 코딩 모델을 출시하며 오픈소스로 공개하였습니다.",
+        "ð· Improved coding & agent performance over K2.6: Kimi Code Bench v2에서 +21.8%, Program Bench에서 +11.0%, MLS Bench Lite에서 +31.5%."
+      ]
+    },
+    {
+      "title": "LTX2.3 Audio Reactive LoRA",
+      "source": "2026.06.13",
+      "url": "https://huggingface.co/fal/ltx2.3-audio-reactive-lora",
+      "bullets": [
+        "Fal ai가 자체 개발한 오픈소스 LoRA. 음악 기반 영상 생성을 위해 제작됨.",
+        "더욱 정교한 비트 싱크, 그래픽 텍스처, 색상 분리, 빛의 펄스, 입자 효과, 그리고 음악에 맞춰 움직이는 다양한 형상."
+      ]
+    },
+    {
+      "title": "PRXPixel image generation simple test.",
+      "source": "2026.06.13",
+      "url": "https://www.facebook.com/share/p/1ELzKxGFUe/",
+      "bullets": [
+        "Photoroom이 발표한, 픽셀 공간에서 직접 이미지를 생성하는 오픈소스 7B text-to-image 모델 PRXPixel 간단한 테스트해 보았습니다.",
+        "인물이나 전반적인 이미지 생성은 괜찮은 편인데, 최신 모델들과 비교해 보았을때 영문 텍스트도 제대로 생성해 내지 못하고(한글은 아예 못함), 개인적으로 이미지 품질도 뿌연 느낌이 많아 좋게 느껴지지는 않았습니다."
+      ]
+    },
+    {
+      "title": "Photoroom released 'PRXPixel', text-to-image, pixel space",
+      "source": "2026.06.13",
+      "url": "https://huggingface.co/Photoroom/prxpixel-t2i",
+      "bullets": [
+        "Photoroom이 픽셀 공간에서 직접 이미지를 생성하는 오픈소스 7B text-to-image 모델 공개.",
+        "수억 장의 이미지를 대상으로 수개월간 사전 훈련을 진행하고, 지도 학습을 통한 미세 조정 및 선호도 정렬 과정을 거친 끝에, 드디어 첫 공개 프리뷰를 선보였습니다. (오픈소스 apache-2.0  License로 공개)"
+      ]
+    },
+    {
+      "title": "인물 검열 없는 AI를 찾고 있다면? BBanana AI  Seedance 2.0 지원",
+      "source": "2026.06.13",
+      "url": "https://www.instagram.com/p/DZes4I1gAsS/",
+      "bullets": [
+        "가장 먼저 막히는 게 인물 생성 검열입니다.",
+        "제가 최근 테스트 중인 빠나나 AI(BBanana AI) 는"
+      ]
+    },
+    {
+      "title": "MS, AI 에이전트의 skill 자동 수정 기술 'SkillOpt' 공개...\"성능 23.5% 향상\"",
+      "source": "2026.06.13",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "bullets": [
+        "MS는  'Claude Code'와 'Codex', 'Copilot' 등 다양한 AI 에이전트 환경에서 사용되는 스킬(skill) 문서를 스스로 최적화해 성능을 높이는 ‘스킬옵트(SkillOpt)’를 공개.",
+        "AI가 작업을 수행한 결과를 분석해 어떤 지침이 도움이 됐고 어떤 부분이 문제였는지를 판단한 뒤, 성능이 향상되는 경우에만 스킬 문서를 자동으로 수정, AI가 시행착오를 통해 업무 매뉴얼을 조금씩 개선해 나가는 방식."
+      ]
+    },
+    {
+      "title": "Claude Fable x Video Workflow (source: X lucas_flatwhite)",
+      "source": "2026.06.12",
+      "url": "https://x.com/ClaudeDevs/status/2064399512664526853",
+      "bullets": [
+        "Claude Code 팀 Thariq가 직접 Fable로 Fable 5 Launch video(아래 링크 첨부)를 만든 과정을 공유해줬습니다. (영상에 한글 자막 작업)",
+        "Thariq: \"간단히 말하자면, Fable이 텍스트 변환 서비스와 ffmpeg를 활용하고, 색보정을 수행하며, Figma MCP를 사용하고, Remotion UI를 생성하고, 최종 렌더링을 처리하기 위해 수많은 코드와 도구 호출을 작성했습니다. 저는 영상 편집기를 전혀 사용하지 않았습니다. \""
+      ]
+    },
+    {
+      "title": "Codex 생산성 향상을 위한 필수 Skills 추천 (source X Easycompany333)",
+      "source": "2026.06.12",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+      "bullets": [
+        "1\\. Frontend Design",
+        "AI 프론트엔드 미적 감각 전문 치료. 파란색-보라색 그라데이션, 기본 폰트, 템플릿 느낌을 조금 줄여주고, 웹페이지, 소형 도구 UI, 데이터 대시보드에 적합."
+      ]
+    },
+    {
+      "title": "오픈AI, 토큰 가격 대폭 인하 검토...앤트로픽과 가격 전쟁 예고",
+      "source": "2026.06.12",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211640",
+      "bullets": [
+        "11일 월스트리트저널(WSJ)에 따르면, 오픈AI는 AI 서비스 이용 요금 산정 기준인 토큰 가격을 대폭 낮추는 방안을 내부적으로 검토중.",
+        "최근 기업들의 AI 활용이 급증하면서 비용 부담 문제는 중요한 과제로 떠오름. 이는 앤트로픽이 비슷한 가격 인하에 나설 것으로 예상되며, 이에 앞서 대응하려는 전략으로 전해짐."
+      ]
+    },
+    {
+      "title": "구글, 미국서 AI 구독료 38% 전격 인하…“B2C 가격 전쟁 신호탄”",
+      "source": "2026.06.12",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211645",
+      "bullets": [
+        "구글은 8일 보급형 AI 구독 서비스인 ‘구글 AI 플러스’의 미국 월 이용료를 기존 7.99달러에서 4.99달러로 38% 인하한다고 발표. 타 지역 확대 여부는 언급하지 않음. 동시에 요금제에 포함되는 클라우드 저장 공간도 기존 200GB에서 400GB로 2배 확대.",
+        "단순한 프로모션을 넘어 AI 산업 전반의 수익 구조 변화 신호로 해석. 지금까지 미국 AI 시장에서는 모델 성능 경쟁이 핵심이었지만, 최근 들어 이용자 확보를 위한 가격 경쟁이 새로운 전선으로 부상."
+      ]
+    },
+    {
+      "title": "Text-to-lottie (skills): Generate production-ready Lottie animations with Claude Code or Codex",
+      "source": "2026.06.12",
+      "url": "https://github.com/JaceThings/SF-Hello/blob/main/SVG/hello-en.svg",
+      "bullets": [
+        "Text-to-Lottie는 claude code/codex 또는 스킬을 지원하는 기타 코딩 에이전트를 활용해 실제 배포 가능한 Lottie 애니메이션을 생성할 수 있는 오픈소스 하네스(open-source harness) skill입니다.",
+        "코딩 에이전트에 skill을 설치한후, '\\~을 Lottie animation으로 생성해줘' 텍스트로 지시만하면 첨부 영상 데모와 같은 애니메이션을 생성해 준다고 합니다. 엄밀하게는 Lottie JSON 파일을 생성해주며, 바로 Web이나 앱에서 lottie player로 불러서 애니메이션을 볼수 있고, 추가적인 보정등을 위해 After Effects로 가져올 수도 있습니다."
+      ]
+    },
+    {
+      "title": "Higgsfield Games with Claude Fable 5",
+      "source": "2026.06.12",
+      "url": "https://x.com/higgsfield/status/2065177172571214270",
+      "bullets": [
+        "Higgsfield MCP가 생성한 최고 수준의 캐릭터, 소품, 배경을 활용해 2D나 3D를 막론하고 어떤 장르의 멀티플레이어 게임이든 단 한 번의 프롬프트만으로 제작할 수 있습니다.",
+        "Claude Fable 5 기반 기술로 구동됩니다. MCP와 Higgsfield의 슈퍼컴퓨터를 통해 체험 가능합니다."
+      ]
+    },
+    {
+      "title": "비공개 등록",
+      "source": "2026.06.11",
+      "url": "https://x.com/0xQiYan/status/2064671147363610852",
+      "bullets": [
+        "Codex에 GitHub에 있는 이 6개의 비디오 Skills를 설치하면, 더 이상 단순히 코드를 쓰는 도구가 아니라 이런 걸 도와줄 수 있어:",
+        "스크립트, 스토리보드, 프롬프트, 모션 효과, 자막, 편집, 패키징, MP4 렌더링."
+      ]
+    },
+    {
+      "title": "LumaAI Ray3.2 Multi-Keyframe Video to Video",
+      "source": "2026.06.11",
+      "url": "https://x.com/LumaLabsAI/status/2064395809764893151",
+      "bullets": [
+        "새로 발표된 Ray3.2는 Text/Image to video 성능보다는 Video to Video에 힘을 준 것으로 이런 용도 활용에 적격이라고 합니다.",
+        "\"Multi-Keyframe 기능을 사용하면 단일 클립 내에 최대 16개의 키프레임을 설정할 수 있습니다. 어떤 요소가 변하고, 어떤 요소가 유지되며, 스토리가 어떻게 마무리될지 직접 결정하세요. 한 프레임 한 프레임, 샷의 구도를 자유롭게 연출해 보세요.\""
+      ]
+    },
+    {
+      "title": "Fable 5 vs Opus 4.8 vs Gemini 3.1 Pro vs GPT 5.5 (source X gmi_cloud)",
+      "source": "2026.06.11",
+      "url": "https://x.com/gmi_cloud/status/2064583914501681217",
+      "bullets": [
+        "gmi_cloud: \"Claude Fable 5는 완전히 다른 차원의 성능을 보여줍니다.",
+        "Claude Opus 4.8, Gemini 3.1 Pro, GPT 5.5와 비교해 보면 시각적 격차가 어마어마합니다."
+      ]
+    },
+    {
+      "title": "Claude Fable 5 vs Opus 4.8 with Higgsfield MCP.",
+      "source": "2026.06.11",
+      "url": "https://x.com/higgsfield_ai/status/2064897496091140376",
+      "bullets": [
+        "Claude Fable 5는 스크립트 작성에 탁월합니다.",
+        "Higgsfield MCP와 조합해 보았을 때, 그 결과가 놀랍습니다."
+      ]
+    },
+    {
+      "title": "South Korea and AI Production: KJ Kim on Reimagining the Economics of Filmmaking",
+      "source": "2026.06.11",
+      "url": "https://www.linkedin.com/pulse/south-korea-ai-production-kj-kim-reimagining-noah-kadner-wwdc-3tp3c",
+      "bullets": [
+        "할리우드 창작계와 AI 개발자, 기술 투자자들이 한자리에 모이는 연례 행사인 ‘AI on the Lot 2026’에서, STUDIO META-K Inc.의 CEO이자 설립자인 김광집(KJ) 씨와 이야기를 나눴다. 서울에 본사를 둔 이 제작사는 조용히 전 세계에서 가장 활발한 AI 기반 콘텐츠 스튜디오 중 하나로 자리매김했다.",
+        "2022년에 설립된 스튜디오 메타-K는 처음에는 한국 드라마와 영화를 제작하다가 이후 AI가 통합된 워크플로로 전환했다. 김 대표는 이 회사를 AI 기술과 오리지널 콘텐츠 IP를 한 지붕 아래 융합한 ‘엔터테크(enter-tech)’ 모델로 설명한다. 지난해 이 회사는 100개 이상의 상업 프로젝트를 완료했으며, 여러 넷플릭스 TV 시리즈 제작에도 참여했다."
+      ]
+    },
+    {
+      "title": "Google DiffusionGemma, 4x faster open-source",
+      "source": "2026.06.11",
+      "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+      "bullets": [
+        "Diffusion을 실험적으로 적용한 Gemma로 Gemma 4 12B보다 조금 못한 성능에 속도는 최대 4배를 낸다고 하며, 오픈소스(License: apache-2.0)로 공개하였습니다. 근래에는 속도 빠르게 하는 여러 기술들이 연구되고 있네요.",
+        "Apache 2.0 라이선스로 공개된 구글의 실험적 오픈 소스 모델인 DiffusionGemma는 텍스트 생성을 위한 매우 빠른 접근 방식인 ‘텍스트 확산(text diffusion)’을 탐구합니다."
+      ]
+    },
+    {
+      "title": "Xiaomi released MiMo-V2.5-Pro-UltraSpeed. 1,000+ TOKENS/S ON A 1T MODEL!",
+      "source": "2026.06.11",
+      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+      "bullets": [
+        "1TB 모델에서 사상 최초로 1,000 토큰/초의 처리 속도를 달성!",
+        "Cerebras와 같은 웨이퍼 스케일 통합 방식도 아니고, Groq와 같은 순수 온칩 SRAM 칩도 아니고, 단 하나의 표준 8-GPGPU 노드만을 사용하여 1조 파라미터 MoE 모델에서 1,000 TPS를 달성했습니다."
+      ]
+    },
+    {
+      "title": "RazzzHF Realism_Engine_Ideogram_4 (NSFW)",
+      "source": "2026.06.11",
+      "url": "https://huggingface.co/RazzzHF/Realism_Engine_Ideogram_4/tree/main",
+      "bullets": [
+        "여성 해부학 지식 부족 문제를 개선합니다.",
+        "제공된 워크플로우를 사용하시면 됩니다."
+      ]
+    },
+    {
+      "title": "Latent Spatial Memory for Video World Models (Microsoft/Zhejiang Univ.)",
+      "source": "2026.06.11",
+      "url": "https://microsoft.github.io/LatentSpatialMemory/",
+      "bullets": [
+        "Microsoft와 Zhejiang 대학이 발표한 논문으로, 영상 세계 모델에 대한 잠재 공간 기억은 3D 장면 정보를 확산 잠재 공간에 직접 저장함으로써, 픽셀 공간 재구성 과정에서 발생하는 부하를 제거하고 메모리 사용량을 줄이면서 더 빠른 생성을 가능.",
+        "기존 RGB 점군(Point Cloud) 기반 방식의 반복적인 렌더링 및 VAE 인코딩에 따른 계산 부담과 정보 손실을 원천적으로 제거함."
+      ]
+    },
+    {
+      "title": "Violin — Open-source Video Translation Skill.",
+      "source": "2026.06.16",
+      "url": "https://github.com/shang-zhu/violin",
+      "bullets": [
+        "동영상을 업로드하면, Violin은 음성을 텍스트로 변환하고, 이를 번역한 뒤, 대상 언어로 원어민처럼 자연스러운 음성 해설을 합성하여 동영상에 다시 삽입합니다. 모든 내용이 완벽하게 동기화되며, 선택적으로 SRT 자막을 추가할 수도 있습니다. open-source MIT license",
+        "CLI, FastAPI web App, Claude Code skill 형태로 이용 가능합니다."
+      ]
+    }
+  ]
+}
