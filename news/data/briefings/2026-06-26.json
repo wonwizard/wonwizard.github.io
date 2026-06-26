@@ -1,0 +1,195 @@
+{
+  "date": "2026-06-26",
+  "category": "AI",
+  "articles": [
+    {
+      "title": "Wan-Streamer (Alibaba), End-to-end Real-time Interactive Foundation Models",
+      "source": "2026.06.26",
+      "url": "https://wan-streamer.com/",
+      "bullets": [
+        "Alibaba Wan 팀이 발표한 엔드투엔드 실시간 스트리밍 멀티모달 모델로, 25fps·200ms 지연 시간으로 듣고·보고·말하는 기능을 단일 트랜스포머 안에서 처리.",
+        "기존 ASR/TTS/아바타 생성 파이프라인 없이 Block-Causal Attention으로 오디오·비디오·언어를 하나의 연속 스트림으로 실시간 연동."
+      ]
+    },
+    {
+      "title": "주의! 최근 발표된 ideogram 4는 라이센스상 오픈소스가 아니며 상업적 이용 불가",
+      "source": "2026.06.26",
+      "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8/blob/main/LICENSE.md",
+      "bullets": [
+        "ideogram 4는 ideogram-4-non-commercial 라이선스로 연구·평가·개인 프로젝트 등 비상업적 목적으로만 허용.",
+        "모델 웨이트뿐 아니라 생성 결과물 이미지도 상업적 이용 불가로 명시되어 있어 주의 필요."
+      ]
+    },
+    {
+      "title": "ByteDance Seed Audio 1.0 released on fal",
+      "source": "2026.06.26",
+      "url": "https://fal.ai/models/bytedance/seed-audio-1.0",
+      "bullets": [
+        "ByteDance가 음성·음악·음향 효과를 한 번에 생성하는 올인원 오디오 모델 Seed Audio 1.0을 fal에서 서비스 개시, 가격 $0.075/min.",
+        "최대 3개 참조 오디오 클립으로 목소리·감정·캐릭터를 가이드하고, 단일 프롬프트로 다중 화자 장면 구성 가능."
+      ]
+    },
+    {
+      "title": "Ornith-1.0, open-source LLM specialized for agentic coding",
+      "source": "2026.06.26",
+      "url": "https://huggingface.co/collections/deepreinforce-ai/ornith-10",
+      "bullets": [
+        "gemma4·qwen3.5 기반으로 후훈련된 Ornith-1.0은 에이전트 코딩 특화 오픈소스(MIT) LLM으로, 9B~397B 전 규모에서 동급 오픈소스 SOTA 달성.",
+        "강화학습으로 솔루션 롤아웃과 태스크별 스캐폴드를 공동 최적화하는 자기 개선 훈련 전략 채택."
+      ]
+    },
+    {
+      "title": "NC AI, 3D 생성 모델 '바르코 3D 2.0' 공개..."MS·텐센트 제쳤다"",
+      "source": "2026.06.26",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212038",
+      "bullets": [
+        "NC AI가 바르코 3D 2.0을 공개, 최대 4K 해상도·최대 3분 생성으로 전문가 4주 작업을 대체하며 형상 정교도 Uni3D 0.449 기록(1.1 대비 40.8% 향상).",
+        "MS Trellis2, 텐센트 Hunyuan 3D 2를 누르고 원본 형상 왜곡 개선과 복잡한 오브젝트의 미세 텍스처 구현에서 최고 성능 달성."
+      ]
+    },
+    {
+      "title": ""모델이 하네스를 먹어 치울 것"...구글이 본 AI 경쟁의 다음 단계",
+      "source": "2026.06.26",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212092",
+      "bullets": [
+        "구글 딥마인드 로건 킬패트릭이 에이전트 하네스·스캐폴딩은 결국 모델 자체에 흡수될 것이라 전망, '모델은 이제 가중치만이 아닌 거대한 시스템 전체'라고 강조.",
+        "12개월 후에는 현재의 하네스 알파가 다른 곳으로 이동할 것이라며 AI 경쟁의 다음 차별화 포인트를 주목해야 한다고 경고."
+      ]
+    },
+    {
+      "title": "Lift4D (Carnegie Mellon Univ.): Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+      "source": "2026.06.25",
+      "url": "https://lift4d.github.io/",
+      "bullets": [
+        "CMU 연구진이 단안 실외 영상 한 장으로 가려진 영역까지 포함한 동적 객체의 전체 기하·외관·변형을 4D 복원하는 Lift4D 발표.",
+        "인과적 잠재 조건화(Causal Latent Conditioning)와 변형 가능한 3D 가우시안 스플래팅을 결합해 복잡한 야외 비강체 변형에서도 SOTA 달성."
+      ]
+    },
+    {
+      "title": "앤트로픽, 슬랙 전용 에이전트 'Claude Tag' 출시…"AI 협업 시대 연다"",
+      "source": "2026.06.25",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212035",
+      "bullets": [
+        "앤트로픽이 슬랙 채널에서 '@Claude' 태그만으로 팀원처럼 작업을 수행하는 AI 에이전트 'Claude Tag'를 출시, Claude Code의 진화형으로 소개.",
+        "'멀티플레이어 AI' 개념으로 개인 대화를 넘어 조직 전체가 하나의 클로드와 동시 협업하는 방식을 지향."
+      ]
+    },
+    {
+      "title": "메타, 299달러 보급형 AI 안경 'Meta Glasses' 공개… '뮤즈 스파크' 최초 탑재",
+      "source": "2026.06.25",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212036",
+      "bullets": [
+        "메타가 299달러부터 시작하는 보급형 AI 안경 'Meta Glasses'를 공개, 799달러 레이밴 디스플레이 안경보다 훨씬 저렴하게 AI 웨어러블 대중화를 노린다.",
+        "차세대 AI 모델 'Muse Spark'를 기본 탑재한 최초의 AI 안경으로, 음성 명령만으로 스포츠 결과 확인·일정 관리·주변 환경 이해 등 수행 가능."
+      ]
+    },
+    {
+      "title": "KreaAI release the open weights of Krea 2, Text to Image model",
+      "source": "2026.06.24",
+      "url": "https://huggingface.co/krea/Krea-2-Turbo",
+      "bullets": [
+        "KreaAI가 Krea 2 Raw(중간 체크포인트)와 Krea 2 Turbo(정제·증류 버전)를 연간 매출 100만 달러 미만 조건부 상업적 허용으로 오픈.",
+        "artificialanalysis 이미지 리더보드 9위 수준의 품질로, 'Raw로 학습하고 Turbo로 생성한다'는 콘셉트로 파인튜닝 생태계 확장을 유도."
+      ]
+    },
+    {
+      "title": "일본 Sakana AI가 「Fugu / Fugu Ultra」을 발표. Fable 5 / Mythos Preview와도 어깨를 나란히 한다고 주장",
+      "source": "2026.06.24",
+      "url": "https://x.com/ai_database/status/2069338995637768379",
+      "bullets": [
+        "Sakana AI의 Fugu Ultra는 GPT-5.5·Opus 4.8·Gemini 3.1 등 여러 강력한 모델을 강화학습 훈련 LLM '지휘자'가 동적으로 오케스트레이션해 단일 OpenAI 호환 API로 제공.",
+        "벤치마크 일부 항목에서 Fable 5·Mythos Preview와 동급이라 주장하나, 외부 모델 의존 및 자체 신고 벤치마크라는 점에서 독립 검증 필요."
+      ]
+    },
+    {
+      "title": "Baidu open Unlimited-OCR!",
+      "source": "2026.06.24",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "bullets": [
+        "Baidu가 MIT 라이선스로 Unlimited-OCR를 오픈소스 공개, 단일 이미지·다중 페이지 문서·PDF를 원샷 파싱하는 3.3B 다국어 OCR 모델.",
+        "잘린 영역 OCR 대신 전체 문서 파싱, 32K 출력 길이 지원으로 DeepSeek-OCR 스타일을 한 단계 발전시킨 수준."
+      ]
+    },
+    {
+      "title": "ByteDance Seedance 2.5 video announce!",
+      "source": "2026.06.23",
+      "url": "https://x.com/IamEmily2050/status/2069333496821317705",
+      "bullets": [
+        "ByteDance가 FORCE Conference에서 Seedance 2.5 AI 비디오 모델 발표, 30초 단일 구간 원본 출력·50개 All-modal 참조 소재·4K 해상도 지원.",
+        "7월 초 정식 출시 예정이며, Seedance 2.0에는 조만간 4K 지원 기능도 추가될 전망."
+      ]
+    },
+    {
+      "title": "Thinking in Boxes; 3D Editing in Real Images Made Easy (Indian Institute of Science, Apple, et al.)",
+      "source": "2026.06.23",
+      "url": "https://thinking-in-boxes.github.io/",
+      "bullets": [
+        "Apple 등이 발표한, 실제 이미지 내 객체를 3D 박스로 지정해 이동·회전·크기 조절·카메라 시점 변경을 정밀 제어하는 3D 이미지 편집 기술.",
+        "합성 데이터셋과 실제 비디오 2단계 학습으로 가려진 영역까지 자연스럽게 복원하며, 기존 SOTA 이미지 편집 모델 대비 시각 품질·정밀도에서 우위."
+      ]
+    },
+    {
+      "title": "Seedance 2.0 4K video is now available!",
+      "source": "2026.06.23",
+      "url": "https://dreamina.capcut.com/",
+      "bullets": [
+        "Dreamina Seedance 2.0 4K 영상 생성이 출시, 4K 10초 980 크레딧으로 1080p(410 크레딧) 대비 약 2.4배 가격.",
+        "Higgsfield, Fal ai, Magnifix(Freepik) 등 주요 통합 플랫폼에서도 동시 지원 시작."
+      ]
+    },
+    {
+      "title": "Alibaba released HappyHorse 1.1, AI video model",
+      "source": "2026.06.23",
+      "url": "https://x.com/alibaba_cloud/status/2069018466108186728",
+      "bullets": [
+        "알리바바 HappyHorse 1.1 업데이트로 강화된 다이나믹 표현·Multi-Image Reference(R2V)·4K 화질 업그레이드·오디오 제로드리프트 입모양 동기화 기능 추가.",
+        "긴 프롬프트 유지 및 다중 장면 자동 스케줄링 기능 강화로 복잡한 창의적 아이디어 구현 능력 향상."
+      ]
+    },
+    {
+      "title": "세계 4위 등극한 'GLM-5.2'에 실리콘 밸리도 감탄",
+      "source": "2026.06.22",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211964",
+      "bullets": [
+        "중국 Zai의 오픈소스 LLM GLM-5.2가 ArtificialAnalysis 지능 지수에서 51점으로 세계 4위(Fable 5·Opus 4.8·GPT-5.5에 이어), 중국·오픈소스 최초 50점대 돌파.",
+        "MIT 라이선스로 공개되어 Code Arena Frontend 2위를 기록, Claude Opus 4.7 Thinking보다 높은 점수를 기록하며 실리콘밸리 기술 리더들의 극찬을 받음."
+      ]
+    },
+    {
+      "title": "Unreal Engine 5.8 released - MCP server support, Animated MetaHuman",
+      "source": "2026.06.22",
+      "url": "https://epic.gm/ue-5-8-blog",
+      "bullets": [
+        "언리얼 엔진 5.8이 출시되어 실험적 MCP 서버 지원 기능 포함, 어떤 캐릭터든 리깅된 메타휴먼으로 변환 가능.",
+        "MetaHuman Animator가 단일 카메라로 얼굴·신체 전체 연기를 동시 캡처할 수 있게 되어 모션 캡처 장비 없이 고품질 애니메이션 제작 가능."
+      ]
+    },
+    {
+      "title": "앤트로픽, 클로드 코드에 'Artifacts' 도입…"실시간 공유로 협업 강화"",
+      "source": "2026.06.22",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211911",
+      "bullets": [
+        "앤트로픽이 Claude Code에 Artifacts 기능을 도입, 코딩 세션 진행 상황을 자동으로 웹 페이지 형태로 시각화하고 팀원들과 실시간 공유 가능.",
+        "PR 설명서·시스템 구조도·운영 대시보드·배포 체크리스트 등을 세션 전체 컨텍스트를 활용해 자동 생성하는 시각적 문서 역할."
+      ]
+    },
+    {
+      "title": "Boogu-Image-0.1, Open-source unified image generation and editing model",
+      "source": "2026.06.19",
+      "url": "https://boogu.org/",
+      "bullets": [
+        "Boogu Team이 발표한 Apache-2.0 오픈소스 통합 이미지 생성·편집 모델로, Base·Turbo·Edit 변형 포함, GPT-Image2·Nano Banana pro보다는 낮지만 Seedream·Qwen·Z-image보다 우수.",
+        "고품질 텍스트-이미지 생성·빠른 생성(4 step Turbo)·이미지 편집·중영문 텍스트 렌더링 기능을 안정적으로 제공, 상용 모델과 견줄 성능 주장."
+      ]
+    },
+    {
+      "title": "앤트로픽, 'Claude Design' 업그레이드...기업용 플랫폼으로 진화",
+      "source": "2026.06.19",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211857",
+      "bullets": [
+        "출시 첫 주 100만 명 이상 유입됐지만 과도한 토큰 사용 문제를 지적받았던 Claude Design이 기업의 브랜드 가이드라인·디자인 시스템을 자동 준수하는 기업용 플랫폼으로 대규모 업데이트.",
+        "단순 디자인 초안 생성 도구에서 기업 코드 환경과 직접 연결해 디자인 규칙을 자동 적용하는 플랫폼으로 방향성을 근본적으로 재정의."
+      ]
+    }
+  ]
+}
