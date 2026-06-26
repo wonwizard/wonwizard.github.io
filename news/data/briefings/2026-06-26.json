@@ -21,24 +21,6 @@
       ]
     },
     {
-      "title": "일본 Sakana AI가 「Fugu / Fugu Ultra」을 발표. Fable 5 / Mythos Preview와도 어깨를 나란히 한다고 주장",
-      "source": "2026.06.24",
-      "url": "https://x.com/ai_database/status/2069338995637768379",
-      "bullets": [
-        "Sakana AI의 Fugu Ultra는 GPT-5.5·Opus 4.8·Gemini 3.1 등 여러 강력한 모델을 강화학습 훈련 LLM '지휘자'가 동적으로 오케스트레이션해 단일 OpenAI 호환 API로 제공.",
-        "벤치마크 일부 항목에서 Fable 5·Mythos Preview와 동급이라 주장하나, 외부 모델 의존 및 자체 신고 벤치마크라는 점에서 독립 검증 필요."
-      ]
-    },
-    {
-      "title": "Baidu open Unlimited-OCR!",
-      "source": "2026.06.24",
-      "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "bullets": [
-        "Baidu가 MIT 라이선스로 Unlimited-OCR를 오픈소스 공개, 단일 이미지·다중 페이지 문서·PDF를 원샷 파싱하는 3.3B 다국어 OCR 모델.",
-        "잘린 영역 OCR 대신 전체 문서 파싱, 32K 출력 길이 지원으로 DeepSeek-OCR 스타일을 한 단계 발전시킨 수준."
-      ]
-    },
-    {
       "title": "ByteDance Seedance 2.5 video announce!",
       "source": "2026.06.23",
       "url": "https://x.com/IamEmily2050/status/2069333496821317705",
@@ -75,15 +57,6 @@
       ]
     },
     {
-      "title": "세계 4위 등극한 'GLM-5.2'에 실리콘 밸리도 감탄",
-      "source": "2026.06.22",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=211964",
-      "bullets": [
-        "중국 Zai의 오픈소스 LLM GLM-5.2가 ArtificialAnalysis 지능 지수에서 51점으로 세계 4위(Fable 5·Opus 4.8·GPT-5.5에 이어), 중국·오픈소스 최초 50점대 돌파.",
-        "MIT 라이선스로 공개되어 Code Arena Frontend 2위를 기록, Claude Opus 4.7 Thinking보다 높은 점수를 기록하며 실리콘밸리 기술 리더들의 극찬을 받음."
-      ]
-    },
-    {
       "title": "Unreal Engine 5.8 released - MCP server support, Animated MetaHuman",
       "source": "2026.06.22",
       "url": "https://epic.gm/ue-5-8-blog",
@@ -93,30 +66,12 @@
       ]
     },
     {
-      "title": "앤트로픽, 클로드 코드에 'Artifacts' 도입…실시간 공유로 협업 강화",
-      "source": "2026.06.22",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=211911",
-      "bullets": [
-        "앤트로픽이 Claude Code에 Artifacts 기능을 도입, 코딩 세션 진행 상황을 자동으로 웹 페이지 형태로 시각화하고 팀원들과 실시간 공유 가능.",
-        "PR 설명서·시스템 구조도·운영 대시보드·배포 체크리스트 등을 세션 전체 컨텍스트를 활용해 자동 생성하는 시각적 문서 역할."
-      ]
-    },
-    {
       "title": "Boogu-Image-0.1, Open-source unified image generation and editing model",
       "source": "2026.06.19",
       "url": "https://boogu.org/",
       "bullets": [
         "Boogu Team이 발표한 Apache-2.0 오픈소스 통합 이미지 생성·편집 모델로, Base·Turbo·Edit 변형 포함, GPT-Image2·Nano Banana pro보다는 낮지만 Seedream·Qwen·Z-image보다 우수.",
         "고품질 텍스트-이미지 생성·빠른 생성(4 step Turbo)·이미지 편집·중영문 텍스트 렌더링 기능을 안정적으로 제공, 상용 모델과 견줄 성능 주장."
-      ]
-    },
-    {
-      "title": "앤트로픽, 'Claude Design' 업그레이드...기업용 플랫폼으로 진화",
-      "source": "2026.06.19",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=211857",
-      "bullets": [
-        "출시 첫 주 100만 명 이상 유입됐지만 과도한 토큰 사용 문제를 지적받았던 Claude Design이 기업의 브랜드 가이드라인·디자인 시스템을 자동 준수하는 기업용 플랫폼으로 대규모 업데이트.",
-        "단순 디자인 초안 생성 도구에서 기업 코드 환경과 직접 연결해 디자인 규칙을 자동 적용하는 플랫폼으로 방향성을 근본적으로 재정의."
       ]
     }
   ]
