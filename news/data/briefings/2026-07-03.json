@@ -1,0 +1,69 @@
+{
+  "date": "2026-07-03",
+  "category": "AI",
+  "articles": [
+    {
+      "title": "Higgsfield Explainer, powered by Claude Fable 5 and Gemini Omni Flash.",
+      "source": "2026.07.03",
+      "url": "https://x.com/higgsfield_ai/status/2072718802320761145",
+      "bullets": [
+        "Higgsfield에서 Claude Fable 5와 Gemini Omni Flash를 기반으로 한 'Higgsfield Explainer'를 발표.",
+        "대규모 무인 다큐멘터리 제작 도구로, 주제 자동 조사와 다국어 내레이션, 1회 실행으로 최대 10분 분량 생성 가능."
+      ]
+    },
+    {
+      "title": "LUNA (HKUST, Meta): Learning Universal 3D Human Animation Beyond Skinning",
+      "source": "2026.07.03",
+      "url": "https://penghtyx.github.io/LUNA/",
+      "bullets": [
+        "HKUST와 Meta 연구진이 LBS나 3D 바디 모델 피팅 없이, 단안 이미지의 3D 가우시안 표현을 2D 제어 신호로 직접 변형해 3D 아바타 애니메이션을 생성하는 엔드투엔드 프레임워크 LUNA 공개.",
+        "전역 리지드 변형과 국소 논리지드 필드를 분리 예측하는 Neural Animator로 기존 LBS 대비 지터를 줄이고 제로샷 일반화 가능."
+      ]
+    },
+    {
+      "title": "Google Video Gen/Edit 'Gemini Omni Flash' Public Preview release!",
+      "source": "2026.07.02",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available?hl=en",
+      "bullets": [
+        "Gemini Omni Flash가 공식 Public Preview로 발표, Gemini API를 통해 제공되며 가격은 Veo 3.1 Fast와 동일 수준.",
+        "비용 효율적인 동영상 생성·대화형 편집 모델로 ComfyUI, Falai, Higgsfield 등에서도 제공 시작."
+      ]
+    },
+    {
+      "title": "Nano Banana 2 lite released! Half price of 2",
+      "source": "2026.07.01",
+      "url": "https://x.com/GoogleAIStudio/status/2071989578672595413",
+      "bullets": [
+        "구글이 Nano Banana 2 lite를 출시, 기존 Gemini 이미지 모델 중 가장 빠르고 비용 효율적이며 가격은 Nano Banana 2의 절반.",
+        "AI 스튜디오와 Gemini API를 통해 바로 이용 가능."
+      ]
+    },
+    {
+      "title": "구글, '제미나이' 개인화 이미지 생성 기능 무료 개방…미국부터 적용",
+      "source": "2026.06.30",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212279",
+      "bullets": [
+        "구글이 미국 모든 사용자에게 제미나이의 '퍼스널 인텔리전스' 기반 이미지 생성 기능을 무료 개방, 기존엔 유료 구독자 전용이었음.",
+        "나노 바나나 기술 기반으로 구글 서비스 정보를 활용해 개인 맞춤형 이미지를 생성하며 opt-in 방식으로 제공."
+      ]
+    },
+    {
+      "title": "Comfy MCP in public beta Released!",
+      "source": "2026.06.30",
+      "url": "https://blog.comfy.org/p/comfy-mcp-turn-your-agent-into-a",
+      "bullets": [
+        "Comfy MCP가 공개 베타로 출시되어 Claude, Codex, Cursor 등 다양한 에이전트에서 ComfyUI 워크플로우를 연결할 수 있는 최초의 프로덕션용 MCP.",
+        "자연어로 이미지·영상·3D·오디오 워크플로우 생성·편집·실행이 가능해 ComfyUI를 몰라도 에이전트가 대신 처리."
+      ]
+    },
+    {
+      "title": "Fal just open-sourced 3DREAL! Render-to-real IC-LoRA for LTX-2.3",
+      "source": "2026.06.27",
+      "url": "https://x.com/fal/status/2070523006770630813",
+      "bullets": [
+        "Fal이 LTX-2.3용 render-to-real IC-LoRA인 3DREAL을 오픈소스로 공개.",
+        "첫 프레임의 구도와 카메라 움직임을 유지하면서 3D/CG/게임 렌더링 결과물을 사실적인 영화급 영상으로 변환."
+      ]
+    }
+  ]
+}
