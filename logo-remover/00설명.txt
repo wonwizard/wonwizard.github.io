@@ -1,0 +1,22 @@
+소스: https://github.com/dearabhin/gemini-watermark-remover
+
+로컬PC에서 실행하는 법 
+보안 정책상 index.html 을 바로 웹브라우저에서 실행해도 작동안함
+아래처럼 python 단순 명령형 웹서버 이용 해당 소스 받아둔 디렉토리에 가서 아래 실행
+> python -m http.server 8000
+웹브라우저에서 http://localhost:8000
+
+
+26.7.6
+
+위치조정 및 농도 수정
+
+js/engine.js
+const margin = isLarge ? 64 : 32;  
+> const margin = isLarge ? 192 : 96;
+
+js/blendModes.js
+const ALPHA_SCALE = 0.6;   추가
+
+let alpha = alphaMap[alphaIdx] 
+> let alpha = alphaMap[alphaIdx] * ALPHA_SCALE;
