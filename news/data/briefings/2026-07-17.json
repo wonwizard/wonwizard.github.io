@@ -1,0 +1,95 @@
+{
+  "date": "2026-07-17",
+  "category": "AI",
+  "articles": [
+    {
+      "title": "스튜디오메타케이 김광집 대표 \"AI 기술을 실제 방송과 영화 제작 현장에 적극적으로 적용해 제작 효율성과 콘텐츠 완성도를 높여 나가겠다\"",
+      "source": "2026.07.17",
+      "url": "https://m.etoday.co.kr/news/view/2601561",
+      "bullets": [
+        "스튜디오메타케이 김광집 대표가 AI 기술을 방송·영화 제작 현장에 적극 적용해 제작 효율성과 콘텐츠 완성도를 높이겠다고 밝힘.",
+        "생성형 AI 기술을 KBS '역사스페셜', MBC '신인감독 김연경', ENA '금쪽같은 내 스타', MBN '돌싱글즈7' 등 주요 방송 프로그램에 적용해온 글로벌 수준의 AI 영상 제작 역량을 보유."
+      ]
+    },
+    {
+      "title": "Higgsfield MCP/Plugin for After Effects just got upgraded. Powered by Fable 5.",
+      "source": "2026.07.17",
+      "url": "https://x.com/higgsfield/status/2077016770939122149",
+      "bullets": [
+        "Higgsfield가 최신 Claude Fable 5를 활용한 After Effects용 MCP/Plugin을 업그레이드 발표.",
+        "참조 이미지를 드래그 앤 드롭하면 애니메이션 가능한 벡터 레이어로 분해되며, AI 어시스턴트가 작업을 대신 수행하고 프로젝트 현지화도 지원."
+      ]
+    },
+    {
+      "title": "Motion4Motion(StepFun), Motion Transfer Video",
+      "source": "2026.07.16",
+      "url": "https://lhchen.top/Motion4Motion/",
+      "bullets": [
+        "Tsinghua대·StepFun·HKUST 연구진이 뼈대 정보 없이 픽셀 수준 모션 흐름을 모델링해 이종 객체 간 모션 전송을 학습 없이 지원하는 Motion4Motion(M4M)을 발표.",
+        "사전 학습된 비디오 디퓨전 트랜스포머의 자가 주의집중과 추론 시점 반전 경로 조작만으로 인간 동작을 판다·거위·테이블 등에 전송하며 기존 SOTA 베이스라인을 상회하는 성능을 입증."
+      ]
+    },
+    {
+      "title": "Michael Owen AI video by Seedance 2.5 (X @BytePlusGlobal)",
+      "source": "2026.07.16",
+      "url": "https://x.com/BytePlusGlobal/status/2077321849806234080",
+      "bullets": [
+        "BytePlus가 Seedance 2.5로 축구 스타 Michael Owen의 커리어 결정적 순간들을 재현한 영상을 공개해 화제.",
+        "경기장 시그니처 동작부터 창의적 연출까지 AI 영상 제작의 한계를 뛰어넘었다고 소개."
+      ]
+    },
+    {
+      "title": "ARDY(NVIDIA/ETH Zürich), Interactive human motion generation",
+      "source": "2026.07.15",
+      "url": "https://research.nvidia.com/labs/sil/projects/ardy/",
+      "bullets": [
+        "NVIDIA와 ETH Zürich가 실시간 인터랙티브 환경을 위한 인간 동작 생성 기술 ARDY를 발표, 온라인 텍스트 프롬프트와 공간·운동학적 제약을 동시에 지원.",
+        "하이브리드 표현식과 2단계 자동회귀 트랜스포머로 RTX 4090 기준 평균 33ms의 초고속 추론을 달성하며 기존 자동회귀 방식을 상회하는 동작 품질을 보임."
+      ]
+    },
+    {
+      "title": "Seedream 5.0 Pro Top2 in Multi-Image Edit Arena",
+      "source": "2026.07.14",
+      "url": "https://x.com/arena/status/2075983981032673480",
+      "bullets": [
+        "Seedream 5.0 Pro가 Multi-Image Edit Arena 순위에서 2위를 차지."
+      ]
+    },
+    {
+      "title": "SAM2Matting(FudanUniv), Generalized Image and Video Matting",
+      "source": "2026.07.14",
+      "url": "https://henghuiding.com/SAM2Matting/",
+      "bullets": [
+        "Fudan대·상하이대가 VOS 트래커의 강점을 유지하며 세밀한 알파 매트를 추출하는 트래커-투-매팅 디커플링 프레임워크 SAM2Matting을 발표(비상업 라이선스).",
+        "이미지 데이터셋만으로 학습했음에도 비디오 매팅에서 강력한 제로샷 일반화 성능을 보이며 인물·야생 환경 등에서 SOTA 성능을 기록."
+      ]
+    },
+    {
+      "title": "Wan-Dancer(Alibaba), Music-to-Dance Generation",
+      "source": "2026.07.14",
+      "url": "https://humanaigc.github.io/wan-dancer-project/",
+      "bullets": [
+        "Alibaba가 음악에 맞춰 장시간 고화질 댄스 비디오를 생성하는 계층적 프레임워크 Wan-Dancer를 오픈소스(apache-2.0)로 공개.",
+        "글로벌-투-로컬 생성 아키텍처로 1분 넘는 720p/30fps 영상을 5가지 댄스 장르에 걸쳐 안정적으로 생성, 지터·반복 아티팩트를 효과적으로 제거."
+      ]
+    },
+    {
+      "title": "Pika 4K-VFX Skill (PikaMCP) in Claude, Codex",
+      "source": "2026.07.12",
+      "url": "https://x.com/pika_labs/status/2075342772396323293",
+      "bullets": [
+        "Pika가 Seedance 4k 기반 4K-VFX Skill을 발표, Claude·Codex 등에서 PikaMCP를 통해 프롬프트만으로 영상 요소를 변환 가능.",
+        "얼굴, 제스처, 오디오, 카메라 움직임 등 나머지 요소는 그대로 유지하며 포스트 프로덕션 수정이 훨씬 쉬워짐."
+      ]
+    },
+    {
+      "title": "Character AI가 숏폼 드라마 시장에 진출했는데, 극중 캐릭터와 직접 대화 가능! (techcrunch)",
+      "source": "2026.07.11",
+      "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
+      "bullets": [
+        "Character AI가 숏폼(마이크로) 드라마 서비스 'c.ai Series'를 론칭, 시청 중 마음에 드는 캐릭터와 실시간 채팅 및 역할극이 가능.",
+        "로맨스 《Last Summer》, 호러 《The Nighttime Game》, 서바이벌 《Eden Fall》 등 3편의 오리지널 작품을 공개했으며 향후 유저용 창작자 도구도 출시 예정."
+      ]
+    }
+  ]
+}
