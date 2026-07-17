@@ -65,15 +65,6 @@
       ]
     },
     {
-      "title": "Wan-Dancer(Alibaba), Music-to-Dance Generation",
-      "source": "2026.07.14",
-      "url": "https://humanaigc.github.io/wan-dancer-project/",
-      "bullets": [
-        "Alibaba가 음악에 맞춰 장시간 고화질 댄스 비디오를 생성하는 계층적 프레임워크 Wan-Dancer를 오픈소스(apache-2.0)로 공개.",
-        "글로벌-투-로컬 생성 아키텍처로 1분 넘는 720p/30fps 영상을 5가지 댄스 장르에 걸쳐 안정적으로 생성, 지터·반복 아티팩트를 효과적으로 제거."
-      ]
-    },
-    {
       "title": "Pika 4K-VFX Skill (PikaMCP) in Claude, Codex",
       "source": "2026.07.12",
       "url": "https://x.com/pika_labs/status/2075342772396323293",
@@ -83,12 +74,21 @@
       ]
     },
     {
-      "title": "Character AI가 숏폼 드라마 시장에 진출했는데, 극중 캐릭터와 직접 대화 가능! (techcrunch)",
+      "title": "Character AI가 숏폼 드라마 시장에 진출, 극중 캐릭터와 직접 대화 기능 제공 (techcrunch)",
       "source": "2026.07.11",
       "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
       "bullets": [
         "Character AI가 숏폼(마이크로) 드라마 서비스 'c.ai Series'를 론칭, 시청 중 마음에 드는 캐릭터와 실시간 채팅 및 역할극이 가능.",
         "로맨스 《Last Summer》, 호러 《The Nighttime Game》, 서바이벌 《Eden Fall》 등 3편의 오리지널 작품을 공개했으며 향후 유저용 창작자 도구도 출시 예정."
+      ]
+    },
+    {
+      "title": "Wan-Dancer(Alibaba), Music-to-Dance Generation",
+      "source": "2026.07.14",
+      "url": "https://humanaigc.github.io/wan-dancer-project/",
+      "bullets": [
+        "Alibaba가 음악에 맞춰 장시간 고화질 댄스 비디오를 생성하는 계층적 프레임워크 Wan-Dancer를 오픈소스(apache-2.0)로 공개.",
+        "글로벌-투-로컬 생성 아키텍처로 1분 넘는 720p/30fps 영상을 5가지 댄스 장르에 걸쳐 안정적으로 생성, 지터·반복 아티팩트를 효과적으로 제거."
       ]
     }
   ]
