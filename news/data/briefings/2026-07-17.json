@@ -84,7 +84,7 @@
     },
     {
       "title": "Wan-Dancer(Alibaba), Music-to-Dance Generation",
-      "source": "2026.07.14",
+      "source": "2026.07.11",
       "url": "https://humanaigc.github.io/wan-dancer-project/",
       "bullets": [
         "Alibaba가 음악에 맞춰 장시간 고화질 댄스 비디오를 생성하는 계층적 프레임워크 Wan-Dancer를 오픈소스(apache-2.0)로 공개.",
