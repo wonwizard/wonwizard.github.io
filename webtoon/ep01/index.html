@@ -1,0 +1,402 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>역천의 시우 — EP01</title>
+<style>
+  :root{
+    --bg:#0b0d12; --bg2:#12151d; --ink:#e8eaf0; --muted:#8b93a7;
+    --line:#232838; --accent:#2fbfa6; --err:#b0202a; --gold:#c9a24a;
+    --ice:#7fb6d6; --shadow:0 12px 40px rgba(0,0,0,.55);
+    --maxw:560px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.65}
+  body{overflow-x:hidden}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 0 80px}
+
+  /* Cover */
+  .cover{position:relative;min-height:78vh;display:flex;flex-direction:column;
+    justify-content:center;align-items:center;text-align:center;padding:48px 28px;
+    background:
+      radial-gradient(120% 80% at 50% 0%, rgba(47,191,166,.10), transparent 60%),
+      radial-gradient(90% 60% at 50% 120%, rgba(176,32,42,.12), transparent 60%),
+      linear-gradient(180deg,#05070b,#0b0d12)}
+  .cover .kicker{letter-spacing:.5em;font-size:12px;color:var(--muted);margin-bottom:22px;
+    text-transform:uppercase}
+  .cover h1{font-size:clamp(38px,11vw,64px);margin:0;font-weight:800;letter-spacing:-.01em;
+    text-shadow:0 0 30px rgba(47,191,166,.25)}
+  .cover h1 .han{display:block;font-size:.42em;color:var(--gold);letter-spacing:.35em;
+    font-weight:600;margin-top:14px}
+  .cover .ep{margin-top:30px;font-size:15px;color:var(--muted)}
+  .cover .ep b{color:var(--accent);font-weight:700}
+  .cover .log{max-width:420px;margin:30px auto 0;font-size:14.5px;color:#c4c9d6;line-height:1.8}
+  .cover .scroll-cue{margin-top:44px;font-size:12px;color:var(--muted);animation:bob 1.8s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(6px);opacity:1}}
+
+  .note-banner{max-width:var(--maxw);margin:0 auto;padding:16px 22px;font-size:12.5px;
+    color:#cdd3e0;background:linear-gradient(180deg,#161a24,#12151d);
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line);line-height:1.7}
+  .note-banner b{color:var(--gold)}
+
+  /* Section divider */
+  .sec{margin:54px 0 8px;text-align:center;color:var(--muted);font-size:13px;letter-spacing:.28em}
+  .sec span{display:inline-block;padding:0 16px;position:relative}
+  .sec span:before,.sec span:after{content:"";position:absolute;top:50%;width:42px;height:1px;
+    background:linear-gradient(90deg,transparent,var(--line))}
+  .sec span:before{right:100%}.sec span:after{left:100%;transform:scaleX(-1)}
+
+  /* Panel */
+  .panel{position:relative;margin:0 0 6px;background:var(--bg2);
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    padding:0}
+  .stage{position:relative;padding:26px 24px 22px;min-height:150px;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.015), transparent 30%),
+      repeating-linear-gradient(135deg, rgba(255,255,255,.012) 0 2px, transparent 2px 9px)}
+  .pmeta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+  .pnum{font-variant-numeric:tabular-nums;font-weight:800;font-size:12px;color:#0b0d12;
+    background:var(--gold);border-radius:5px;padding:2px 8px}
+  .chip{font-size:10.5px;letter-spacing:.04em;color:var(--muted);border:1px solid var(--line);
+    border-radius:20px;padding:2px 9px;text-transform:uppercase}
+  .chip.loc{color:var(--ice);border-color:rgba(127,182,214,.35)}
+  .chip.shot{color:#d6c187;border-color:rgba(201,162,74,.3)}
+  .comp{font-size:13px;color:#aeb6c8;font-style:italic;border-left:2px solid var(--line);
+    padding:2px 0 2px 12px;margin:0 0 16px}
+
+  /* dialogue elements */
+  .lines{display:flex;flex-direction:column;gap:11px}
+  .bub{position:relative;max-width:88%;padding:11px 15px;border-radius:16px;font-size:15px;
+    box-shadow:var(--shadow);line-height:1.55;word-break:keep-all}
+  .who{display:block;font-size:10.5px;letter-spacing:.05em;color:var(--muted);
+    margin:0 4px 4px;text-transform:uppercase}
+  /* say */
+  .say .bub{background:#f4f6fb;color:#141721;border:1px solid #d9deea;align-self:flex-start;
+    border-bottom-left-radius:5px}
+  .say.right{align-self:flex-end}
+  .say.right .bub{border-bottom-left-radius:16px;border-bottom-right-radius:5px}
+  .row{display:flex;flex-direction:column}
+  .row.right{align-items:flex-end}
+  /* think */
+  .think .bub{background:#1b2130;color:#c7cfe0;align-self:flex-start;
+    border:1px dashed #414c66;border-radius:20px;font-style:italic}
+  .think .who{color:#5fd4bf}
+  /* shout */
+  .shout .bub{background:#fff;color:#0b0d12;font-weight:800;font-size:18px;letter-spacing:.01em;
+    border:2.5px solid #0b0d12;align-self:center;text-align:center;
+    clip-path:polygon(4% 8%,12% 0,22% 9%,34% 1%,46% 9%,58% 1%,70% 9%,82% 1%,94% 9%,100% 22%,95% 40%,100% 60%,94% 82%,84% 76%,72% 92%,60% 78%,48% 94%,36% 78%,24% 92%,12% 78%,3% 84%,0 60%,5% 42%,0 22%);
+    padding:20px 26px}
+  /* sfx */
+  .sfx{align-self:flex-start;color:#727b90;font-weight:800;font-style:italic;
+    font-size:16px;letter-spacing:.02em;opacity:.85;transform:rotate(-3deg);padding:2px 6px}
+  /* system boxes */
+  .sys{align-self:center;width:92%;font-family:"Courier New",ui-monospace,monospace;
+    font-size:13.5px;letter-spacing:.02em;padding:13px 15px;border-radius:4px;position:relative;
+    background:#080a0e;line-height:1.5}
+  .sys .who{font-family:inherit;text-align:center;margin-bottom:6px}
+  .sys.err{border:1px solid var(--err);color:#ff6b74;
+    box-shadow:0 0 22px rgba(176,32,42,.28),inset 0 0 30px rgba(176,32,42,.08)}
+  .sys.err .who{color:#ff8f96}
+  .sys.scan{border:1px solid var(--accent);color:#7ff0dc;
+    box-shadow:0 0 22px rgba(47,191,166,.25),inset 0 0 30px rgba(47,191,166,.07)}
+  .sys.scan .who{color:#7ff0dc}
+  .sys.modern{border:1px solid #38405a;color:#9fb0cf;background:rgba(12,16,26,.6);
+    font-size:12px;opacity:.85}
+  .sys .glitch{text-shadow:1.5px 0 rgba(47,191,166,.5),-1.5px 0 rgba(176,32,42,.4)}
+  .sys code{color:inherit;font-family:inherit}
+
+  .silent{align-self:center;font-size:11px;letter-spacing:.25em;color:#4b556b;
+    border:1px dashed #2b3245;border-radius:20px;padding:4px 14px;text-transform:uppercase}
+
+  /* real rendered panel (art) */
+  .art{display:block;margin:0 0 6px;background:#000;line-height:0}
+  .art img{display:block;width:100%;height:auto}
+  /* ending */
+  .end{margin-top:40px;text-align:center;padding:52px 28px 20px;
+    background:radial-gradient(90% 70% at 50% 0%, rgba(127,182,214,.10), transparent 65%)}
+  .end .to-be{font-size:26px;font-weight:800;letter-spacing:.02em;color:#eaf1f6}
+  .end .to-be span{color:var(--ice)}
+  .end .seed{margin:24px auto 0;max-width:440px;font-size:13.5px;color:#aeb6c8;line-height:1.85;
+    border-top:1px solid var(--line);padding-top:24px}
+  .end .seed b{color:var(--accent)}
+
+  footer{margin-top:36px;padding:26px 24px;border-top:1px solid var(--line);
+    font-size:11.5px;color:#5b647a;line-height:1.8}
+  footer b{color:var(--muted)}
+  @media(max-width:480px){.stage{padding:22px 16px 18px}.bub{font-size:14.5px;max-width:92%}}
+</style>
+
+<div class="wrap" id="wrap"></div>
+
+<script>
+const PANELS = [
+ {sec:"① 콜드 오픈 훅"},
+ {n:1,loc:"LOC_SYS",shot:"풀 글리치",comp:"검붉은 시스템 에러가 화면을 꽉 채운다. 인물 없음, 순수 노이즈.",lines:[
+   {t:"err",who:"SYSTEM",g:1,x:"SYSTEM ERROR ▓▓"},
+   {t:"err",who:"SYSTEM",x:"개체 무결성 확인 불가"},
+   {t:"sfx",x:"지지직—"}]},
+ {n:2,loc:"LOC_DORM",shot:"블랙 디졸브",comp:"감긴 눈꺼풀 안쪽으로 에러 잔상이 흩어진다.",silent:true,lines:[
+   {t:"sfx",x:"삐———"},{t:"sfx",x:"…"}]},
+ {n:3,loc:"LOC_DORM",shot:"클로즈업",comp:"낡은 짚자리에서 눈을 뜨는 시우. 스쳐 지나가는 현대 UI 환영.",lines:[
+   {t:"think",who:"시우",x:"…여긴 어디야."},
+   {t:"modern",who:"(환영)",x:"2:47 AM ▮ 신호 없음"},
+   {t:"sfx",x:"헉—!"}]},
+ {n:4,loc:"LOC_DORM",shot:"인서트(손)",comp:"제 손을 들여다본다. 굳은살과 튼 자국.",lines:[
+   {t:"think",who:"시우",x:"이 손… 내 거 맞아?"},
+   {t:"think",who:"시우",x:"굳은살에, 트고… 뭐냐 이거."}]},
+ {n:5,loc:"LOC_DORM",shot:"미디엄",comp:"문틈 바람에 몸을 웅크린다. 두 개의 기억이 충돌.",lines:[
+   {t:"think",who:"시우",x:"꿈이라기엔…"},
+   {t:"think",who:"시우",x:"너무 춥고, 너무 생생한데."},
+   {t:"sfx",x:"스으—"}]},
+
+ {sec:"② 정체성 확인 · 밑바닥 각인"},
+ {n:6,loc:"LOC_YARD",shot:"미디엄",comp:"몸이 알아서 물지게를 지고 약초를 다듬는다.",lines:[
+   {t:"think",who:"시우",x:"몸은 이 짓을 아네. 물 긷고, 약초 다듬고."},
+   {t:"think",who:"시우",x:"나 원래… 여기 노예였냐?"},
+   {t:"sfx",x:"삐그덕"}]},
+ {n:7,loc:"LOC_YARD",shot:"앙각",comp:"화려한 도포의 정식 제자가 시우를 내려다본다.",lines:[
+   {t:"say",who:"억압자",x:"잡역 주제에, 길 막지 마라."},
+   {t:"say",who:"시우",r:1,x:"죄, 죄송합니다."}]},
+ {n:8,loc:"LOC_YARD",shot:"클로즈업",comp:"고개 숙인 시우, 속으론 딴생각.",lines:[
+   {t:"think",who:"시우",x:"…와, 신분제. 진짜 클래식하네."}]},
+ {n:9,loc:"LOC_YARD",shot:"미디엄",comp:"억압자가 물통을 걷어찬다.",lines:[
+   {t:"say",who:"억압자",x:"오늘 영근 재측정 있는 거, 알지?"},
+   {t:"say",who:"억압자",x:"무영근 쓰레기가 또 기어나오시겠다?"},
+   {t:"sfx",x:"퍽"}]},
+ {n:10,loc:"LOC_YARD",shot:"바스트",comp:"조롱하는 억압자 / 묵묵히 물을 치우는 시우.",lines:[
+   {t:"say",who:"억압자",x:"측령석이 또 새까맣게 죽어버릴 텐데."},
+   {t:"say",who:"억압자",x:"구경거리 하나는 나오겠구만."},
+   {t:"say",who:"시우",r:1,x:"…금방 치우겠습니다."}]},
+ {n:11,loc:"LOC_YARD",shot:"클로즈업",comp:"물에 비친 제 얼굴을 본다. 빨간 글씨의 잔상.",lines:[
+   {t:"think",who:"시우",x:"무영근… 그래, 나 쓰레기 맞지."},
+   {t:"think",who:"시우",x:"근데 아까 그 빨간 글씨는, 대체 뭐였냐고."}]},
+ {n:12,loc:"LOC_YARD",shot:"와이드",comp:"측령석 앞에 모인 제자들이 웅성인다.",lines:[
+   {t:"say",who:"제자들",x:"쟤 또 왔어?"},
+   {t:"say",who:"제자들",x:"무영근이 측령석은 왜 만져ㅋ"}]},
+ {n:13,loc:"LOC_YARD",shot:"클로즈업",comp:"시우 시야에만 반투명 스캔 신호가 깜빡.",lines:[
+   {t:"scan",who:"SYSTEM",x:"▓ 스캔 대기…"},
+   {t:"think",who:"시우",x:"…또 헛것 보이네."},
+   {t:"think",who:"시우",x:"아니면… 아니야?"}]},
+ {n:14,loc:"LOC_YARD",shot:"미디엄",comp:"억압자가 손을 까딱, 좌중이 폭소.",lines:[
+   {t:"say",who:"억압자",x:"자, 오늘도 쓰레기 구경이다. 손 올려라."},
+   {t:"sfx",x:"와하하—"}]},
+
+ {sec:"③ 각성 트리거"},
+ {n:15,loc:"LOC_YARD",shot:"바스트",comp:"측령석(靑銅) 앞에 선 시우. 모두가 지켜본다.",lines:[
+   {t:"think",who:"시우",x:"다른 애들은 손 대면 색이 올라온다던데."},
+   {t:"think",who:"시우",x:"…나는."}]},
+ {n:16,loc:"LOC_YARD",shot:"익스트림 클로즈업",comp:"손끝이 청동에 닿는 순간의 정적.",silent:true,lines:[{t:"sfx",x:"스…"}]},
+ {n:17,loc:"LOC_YARD",shot:"클로즈업",comp:"측령석은 아무 반응이 없다. 시커먼 침묵.",lines:[
+   {t:"think",who:"시우",x:"…역시."},
+   {t:"think",who:"시우",x:"아무것도 없네."}]},
+ {n:18,loc:"LOC_YARD",shot:"와이드",comp:"좌중의 조롱이 최고조. 손가락질.",lines:[
+   {t:"shout",who:"제자들",x:"무판정! 역시 무영근ㅋㅋㅋ"},
+   {t:"say",who:"억압자",x:"쓰레기는 쓰레기통으로. 꺼져라."}]},
+ {n:19,loc:"LOC_YARD",shot:"클로즈업",comp:"조롱이 멀어지고 배경음이 페이드아웃.",lines:[
+   {t:"think",who:"시우",x:"…그래. 나 쓰레기 맞아."},
+   {t:"think",who:"시우",x:"근데—"},
+   {t:"sfx",x:"…웅…웅…"}]},
+ {n:20,loc:"LOC_YARD",shot:"익스트림 클로즈업",comp:"완전한 정적. 시야 구석에 켜지려는 전조 빛.",silent:true,lines:[{t:"sfx",x:"…"}]},
+ {n:21,loc:"LOC_SYS",shot:"풀 UI",comp:"청록 시스템창이 화면을 꽉 채운다. 시간이 멎는다. ★반전 A",lines:[
+   {t:"scan",who:"SYSTEM",g:1,x:"측정 실패"},
+   {t:"scan",who:"SYSTEM",x:"대상이 분류 체계(오행)의 범위 밖에 존재함"},
+   {t:"sfx",x:"···"}]},
+ {n:22,loc:"LOC_YARD",shot:"클로즈업",comp:"말문이 막힌 시우. 눈이 흔들린다.",lines:[
+   {t:"think",who:"시우",x:"범위… 밖?"},
+   {t:"think",who:"시우",x:"내가 약한 게 아니라—"}]},
+ {n:23,loc:"LOC_YARD",shot:"바스트",comp:"조롱하는 억압자 / 그것이 안 보이는 걸 깨닫는 시우.",lines:[
+   {t:"say",who:"억압자",x:"뭐 하냐, 안 꺼져?"},
+   {t:"think",who:"시우",r:1,x:"쟤넨… 안 보이는구나."},
+   {t:"think",who:"시우",r:1,x:"이게, 나만 보여?"}]},
+ {n:24,loc:"LOC_YARD",shot:"클로즈업",comp:"자기규정이 무너지는 순간. ★T0 각성의 문",lines:[
+   {t:"think",who:"시우",x:"나… 없는 게 아니라."},
+   {t:"think",who:"시우",x:"못 재는 거였어?"}]},
+ {n:25,loc:"LOC_YARD",shot:"클로즈업",comp:"콜드오픈의 에러가 지금과 겹쳐진다. ★W1 봉합",lines:[
+   {t:"think",who:"시우",x:"아까 그 '무결성 확인 불가'."},
+   {t:"think",who:"시우",x:"…이거랑, 같은 거야."}]},
+ {n:26,loc:"LOC_YARD",shot:"바스트",comp:"두려움과 흥분이 뒤섞인 얼굴. 처음으로 패를 쥔다.",lines:[
+   {t:"think",who:"시우",x:"정신 차리자."},
+   {t:"think",who:"시우",x:"이게 뭔지 몰라도… 나한테만 보이는 거면."}]},
+ {n:27,loc:"LOC_YARD",shot:"클로즈업(눈)",comp:"저자세였던 눈이 '읽는 눈'으로 바뀐다.",lines:[
+   {t:"think",who:"시우",x:"그럼 저 새끼는…"},
+   {t:"think",who:"시우",x:"뭐가 보이려나."}]},
+ {n:28,loc:"LOC_SYS",shot:"OTS + UI",comp:"억압자 머리 위로 청록 감별창이 뜬다. ★반전 B",lines:[
+   {t:"scan",who:"SYSTEM",x:"영근: 화(火)"},
+   {t:"scan",who:"SYSTEM",x:"등급: 황 / 연기기 중기"},
+   {t:"sfx",x:"팟—"}]},
+ {n:29,loc:"LOC_YARD",shot:"클로즈업",comp:"감별 결과를 속으로 읊는 시우. 입꼬리가 슬쩍.",lines:[
+   {t:"think",who:"시우",x:"화 영근, 황급, 연기기 중기…"},
+   {t:"think",who:"시우",x:"별거 아니네."}]},
+ {n:30,loc:"LOC_YARD",shot:"바스트",comp:"무지한 억압자 vs 다 아는 시우. 극적 아이러니.",lines:[
+   {t:"say",who:"억압자",x:"왜 안 꺼지고 눈알을 굴려, 쓰레기가."},
+   {t:"think",who:"시우",r:1,x:"너, 화 영근이지? 그것도 딱 황급."}]},
+ {n:31,loc:"LOC_YARD",shot:"와이드",comp:"주변 제자들 머리 위로 감별창이 줄줄이. 세상이 '패가 보이는 판'으로.",lines:[
+   {t:"think",who:"시우",x:"다 보여."},
+   {t:"think",who:"시우",x:"여기 있는 놈들 밑천이, 전부."}]},
+ {n:32,loc:"LOC_YARD",shot:"클로즈업",comp:"그러나 곧 표정이 굳는다. 읽어도 못 쓴다.",lines:[
+   {t:"think",who:"시우",x:"근데… 안다고 뭐가 달라지냐."},
+   {t:"think",who:"시우",x:"난 여전히 잡역이고, 쟨 정식 제자인데."}]},
+
+ {sec:"④ 재능의 씨앗 · 대가 각인"},
+ {n:33,loc:"LOC_YARD",shot:"앙각",comp:"모욕당한 억압자가 손을 든다. 위협 점화.",lines:[
+   {t:"say",who:"억압자",x:"이 쓰레기가 감히 눈을 똑바로 떠?"},
+   {t:"say",who:"억압자",x:"손 좀 봐줘야겠네."}]},
+ {n:34,loc:"LOC_YARD",shot:"바스트",comp:"반격하면 하극상. 봉인된 채 노려본다.",lines:[
+   {t:"think",who:"시우",x:"손대면 하극상."},
+   {t:"think",who:"시우",x:"잡역이 정식 제자 건드리면… 끝이야."},
+   {t:"say",who:"억압자",r:1,x:"어디 도망가?"}]},
+ {n:35,loc:"LOC_YARD",shot:"클로즈업(손)",comp:"억압자의 손에 붉은 화기가 피어오른다.",lines:[
+   {t:"say",who:"억압자",x:"살짝 지져주는 거다. 죽진 않아."},
+   {t:"sfx",x:"화르륵"}]},
+ {n:36,loc:"LOC_YARD",shot:"클로즈업",comp:"불꽃을 보며 상극을 떠올리는 시우.",lines:[
+   {t:"think",who:"시우",x:"화(火)… 불은 물에 지잖아. 상극."},
+   {t:"think",who:"시우",x:"근데 나한테 물이 어딨—"}]},
+ {n:37,loc:"LOC_YARD",shot:"익스트림 클로즈업",comp:"눈동자에 각성의 빛. 위협 정점.",lines:[
+   {t:"think",who:"시우",x:"…아니야."},
+   {t:"think",who:"시우",x:"나한테 속성이 없는 게 아니라—"}]},
+ {n:38,loc:"LOC_YARD",shot:"와이드 충격 컷",comp:"손에서 청색 수(水) 기류가 화염을 갈라 흘려낸다. ★정점2 사이다 · 무속성 변환 1회",lines:[
+   {t:"shout",who:"시우",x:"물이, 없으면. 내가 되면 되잖아."},
+   {t:"sfx",x:"촤아악!"}]},
+ {n:39,loc:"LOC_YARD",shot:"바스트",comp:"경악하는 억압자 / 안도하는 시우.",lines:[
+   {t:"say",who:"억압자",x:"방금… 뭐야? 네가 어떻게—"},
+   {t:"think",who:"시우",r:1,x:"됐다. 흘렸어."}]},
+ {n:40,loc:"LOC_YARD",shot:"클로즈업",comp:"제 손을 보며 능력의 원리를 정리.",lines:[
+   {t:"think",who:"시우",x:"이게 무속성… 상대 속성 읽고, 상극으로."},
+   {t:"think",who:"시우",x:"나 이거 되네?"}]},
+ {n:41,loc:"LOC_YARD",shot:"클로즈업",comp:"승리감이 채 가시기 전, 시야가 흔들린다.",lines:[
+   {t:"think",who:"시우",x:"…근데 왜 이렇게 갑자기 어지—"}]},
+ {n:42,loc:"LOC_YARD",shot:"클로즈업",comp:"코피가 주르륵. 비틀거린다. ★치트=위험",lines:[
+   {t:"say",who:"시우",x:"웩— 코피…"},
+   {t:"think",who:"시우",x:"한 번만 더 썼으면, 뒤졌겠네."},
+   {t:"sfx",x:"주르륵"}]},
+ {n:43,loc:"LOC_YARD",shot:"미디엄",comp:"무릎을 짚으며 헐떡인다.",lines:[
+   {t:"think",who:"시우",x:"이 몸뚱아리…"},
+   {t:"think",who:"시우",x:"사용설명서라도 있었으면."},
+   {t:"sfx",x:"털썩"}]},
+ {n:44,loc:"LOC_SYS",shot:"글리치 로그",comp:"흐릿한 시야 한가운데 검붉은 로그. ★W8 · 추적 전조",lines:[
+   {t:"err",who:"SYSTEM",x:"이상현상 감지"},
+   {t:"err",who:"SYSTEM",x:"원인자 추적 대기"}]},
+ {n:45,loc:"LOC_YARD",shot:"클로즈업",comp:"로그를 읽고 등골이 서늘해진다.",lines:[
+   {t:"think",who:"시우",x:"추적…? 뭘 추적한다는 거야."},
+   {t:"think",who:"시우",x:"나를?"}]},
+ {n:46,loc:"LOC_YARD",shot:"와이드",comp:"혼란에 빠진 제자들 / 홀로 로그의 무게에 짓눌린 시우.",lines:[
+   {t:"say",who:"제자들",x:"쟤 뭐야?"},
+   {t:"say",who:"제자들",x:"무영근이… 아니었어?"},
+   {t:"think",who:"시우",r:1,x:"…여기서 쓰러지면 안 되는데."}]},
+
+ {sec:"⑤ 클리프행어 2단"},
+ {n:47,loc:"LOC_YARD",shot:"클로즈업",comp:"시야가 검게 닫히기 시작한다.",lines:[
+   {t:"think",who:"시우",x:"아… 진짜…"},
+   {t:"think",who:"시우",x:"망했다."},
+   {t:"sfx",x:"스르륵"}]},
+ {n:48,loc:"LOC_SYS",shot:"블랙",comp:"완전한 암전. 낮은 이명만.",silent:true,lines:[{t:"sfx",x:"지지직—"}]},
+ {n:49,loc:"LOC_SYS",shot:"풀 글리치",comp:"검은 화면 중앙에 경고 텍스트. ★정점3 클리프 1단",lines:[
+   {t:"err",who:"SYSTEM",x:"–시스템 알림–"},
+   {t:"err",who:"SYSTEM",g:1,x:"예외 개체(逆天) 감지됨."}]},
+ {n:50,loc:"LOC_SYS",shot:"글리치 강조",comp:"'제거'라는 단어가 붉게 번진다.",lines:[
+   {t:"err",who:"SYSTEM",x:"제거 우선순위 상향 검토–"}]},
+ {n:51,loc:"LOC_SYS",shot:"인서트(작게)",comp:"경고창 하단에 무심하게 흘리는 한 줄. ★반전 C 씨앗",lines:[
+   {t:"modern",who:"SYSTEM",x:"등록되지 않은 개체"}]},
+ {n:52,loc:"LOC_SYS",shot:"익스트림 클로즈업",comp:"의식 끝자락의 시우. 마지막 독백.",lines:[
+   {t:"think",who:"시우",x:"…뭐가, 나를…"},
+   {t:"think",who:"시우",x:"보고 있어?"}]},
+ {n:53,loc:"LOC_SYS",shot:"UI 자동 반응",comp:"감별창이 의지와 무관하게 원경을 향해 회전한다. ★톤 전환(청백)",lines:[
+   {t:"scan",who:"SYSTEM",x:"◟ 자동 감별 ◞"},
+   {t:"sfx",x:"삐— 위잉—"}]},
+ {n:54,loc:"LOC_SNOW",shot:"익스트림 와이드",comp:"눈발이 몰아치는 설원/폐관. 서늘한 청백.",silent:true,lines:[{t:"sfx",x:"휘이잉—"}]},
+ {n:55,loc:"LOC_SNOW",shot:"미디엄",comp:"쓰러진 소녀의 실루엣. 얼굴은 음영, 흩날리는 은발만. ★아린 시드",silent:true,lines:[{t:"sfx",x:"…스으…"}]},
+ {n:56,loc:"LOC_SNOW",shot:"OTS + UI",comp:"시우의 감별창이 소녀를 처리하지 못하고 버벅인다. ★W7",lines:[
+   {t:"scan",who:"SYSTEM",x:"영근: 빙(氷) —  ▓지직▓"},
+   {t:"sfx",x:"지직… 지직…"}]},
+ {n:57,loc:"LOC_SNOW",shot:"블랙 여백",comp:"깨지던 감별창이 완성되기 직전의 '쿵' 박자.",silent:true,lines:[{t:"sfx",x:"…"}]},
+ {n:58,loc:"LOC_SNOW",shot:"익스트림 클로즈업",comp:"감별창에 마침내 뜨는 문구. 은발 실루엣과 겹친다. ★클리프 2단 · 긴장10",lines:[
+   {t:"scan",who:"SYSTEM",g:1,x:"영근: 빙(氷) — 측정 범위 초과"},
+   {t:"sfx",x:"—"}]},
+];
+
+const wrap = document.getElementById('wrap');
+
+// cover
+wrap.insertAdjacentHTML('beforeend', `
+ <div class="cover">
+   <div class="kicker">Xianxia · System · Simulation</div>
+   <h1>역천의 시우<span class="han">逆天의 시우</span></h1>
+   <div class="ep">EPISODE <b>01</b> — 측정할 수 없는 자</div>
+   <div class="log">모두가 "영근도 없는 쓰레기"라 비웃는 최하위 잡역 제자.<br>
+     그런데 그를 잴 수 없는 건 그가 약해서가 아니라 —<br>이 세계가 그를 <b style="color:#7ff0dc">측정할 수 없기</b> 때문이었다.</div>
+   <div class="scroll-cue">▽ 스크롤 ▽</div>
+ </div>
+`);
+
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+for(const p of PANELS){
+  if(p.sec){ wrap.insertAdjacentHTML('beforeend', `<div class="sec"><span>${esc(p.sec)}</span></div>`); continue; }
+  let inner = '';
+  if(p.silent){
+    inner += `<div class="row" style="align-items:center"><div class="silent">무대사 · 침묵 패널</div></div>`;
+  }
+  for(const l of (p.lines||[])){
+    const right = l.r ? ' right' : '';
+    if(l.t==='say'){
+      inner += `<div class="row say${right}"><span class="who">${esc(l.who||'')}</span><div class="bub">${esc(l.x)}</div></div>`;
+    } else if(l.t==='think'){
+      inner += `<div class="row think${right}"><span class="who">${esc(l.who||'')} · 생각</span><div class="bub">${esc(l.x)}</div></div>`;
+    } else if(l.t==='shout'){
+      inner += `<div class="row shout"><div class="bub">${esc(l.x)}</div></div>`;
+    } else if(l.t==='sfx'){
+      inner += `<div class="sfx">${esc(l.x)}</div>`;
+    } else if(l.t==='err'||l.t==='scan'||l.t==='modern'){
+      const cls = l.t;
+      const g = l.g ? ' glitch' : '';
+      inner += `<div class="sys ${cls}"><span class="who">${esc(l.who||'SYSTEM')}</span><code class="${g}">${esc(l.x)}</code></div>`;
+    }
+  }
+  wrap.insertAdjacentHTML('beforeend', `
+   <div class="panel" id="panel-${p.n}">
+     <div class="stage">
+       <div class="pmeta">
+         <span class="pnum">P${String(p.n).padStart(2,'0')}</span>
+         <span class="chip loc">${esc(p.loc||'')}</span>
+         <span class="chip shot">${esc(p.shot||'')}</span>
+       </div>
+       ${p.comp?`<div class="comp">${esc(p.comp)}</div>`:''}
+       <div class="lines">${inner}</div>
+     </div>
+   </div>`);
+}
+
+// image-first upgrade: replace storyboard card with real rendered art when the JPG exists
+let done = 0;
+const numbered = PANELS.filter(p=>p.n);
+for(const p of numbered){
+  const n3 = String(p.n).padStart(3,'0');
+  const src = `panels/panel_${n3}.jpg`;
+  const probe = new Image();
+  probe.onload = () => {
+    const el = document.getElementById(`panel-${p.n}`);
+    if(el){ el.className='art'; el.innerHTML=`<img src="${src}" alt="panel ${n3}" loading="lazy" decoding="async">`; }
+    done++; const dc=document.getElementById('donecount'); if(dc) dc.textContent = `${done}/58`;
+  };
+  probe.src = src;
+}
+
+// ending
+wrap.insertAdjacentHTML('beforeend', `
+ <div class="end">
+   <div class="to-be">TO BE <span>CONTINUED</span></div>
+   <div class="seed">
+     <b>다음 화 시드</b><br>
+     시스템은 시우를 "제거해야 할 예외"로 지목했고, 감별창은 스스로 —
+     빙(氷) 영근을 가진 <b>측정 범위 초과</b>의 소녀를 향해 돌아섰다.<br>
+     · 나를 "보고 있는" 것은 누구인가? (반전 C: 등록되지 않은 개체)<br>
+     · 눈밭에 쓰러진 그 소녀는 누구이며, 왜 시스템조차 다 재지 못하는가? (이아린 조우)
+   </div>
+ </div>
+ <footer>
+   <b>역천의 시우 · EP01</b> — 58 패널 · 세로 스크롤<br>
+   파이프라인: 트렌드 리서치 → 시나리오(컨셉·세계관·캐릭터·아크·반전·긴장·비트시트·대본) → 비주얼 설계(스타일바이블·캐릭터시트·샷리스트·레터링) → 스토리보드 조립<br>
+   반전 4종: A(측정 실패=규격 밖) · B(감별→무속성 변환 사이다) · 치트=위험(대가·추적) · 2단 클리프행어 &nbsp;|&nbsp; 시스템 색: <span style="color:#7ff0dc">청록=감별창</span> · <span style="color:#ff6b74">검붉음=에러/경고</span>
+ </footer>
+`);
+</script>
