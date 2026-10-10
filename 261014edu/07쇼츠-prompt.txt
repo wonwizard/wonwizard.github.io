@@ -1,0 +1,84 @@
+[Generation Goal] Live-action action — one woman alone clears a night piazza of rift-touched runners with telekinesis, 15 seconds.
+@image1 = SEOYUN | 
+@image2 = RIFT-TOUCHED | 
+@image3 = VEHICLE | 15 Seconds | 16:9
+[References]
+@image1 is Seoyun — one reference giving her face, hair, body and outfit, matched from every angle, mouth closed throughout. 
+@image2 defines the swarm, design unaltered. 
+@image3 is the red off-roader at the edge of the piazza. Every background comes from the text below.
+[Look]
+Modern Korean drama look — photoreal live action, grounded realism, spherical 35mm, f/4, deep focus. Neo-noir night grade: cool blue shadow, warm tungsten pools, natural skin tones, rich blacks.
+Atmosphere: a wide circular piazza in a hillside Italian town at night — worn red brick floor, a stone basin, a stone arcade of ochre facades, columns, shutters and café tables, dust on the ground, the off-roader at the edge with headlights burning across the brick.
+REALISM LOCK: real actor, real skin and fabric, natural pores, individual hair strands, authentic biomechanics; real stone, brick grain, splintering timber, plaster dust.
+LIGHTING LOCK: hard cyan edge light and warm arcade practicals carry the piazza, headlight shafts rake the brick and rim her shoulders, her face and hands clearly visible, NOT dark, NOT dim. Deep cool-blue ambient shadow, thin haze, rich blacks holding detail.
+NIGHT LOCK: deep night, hours after sunset, the sky above the arcade black and carrying no colour. Dusk, twilight, blue hour and sunset colours stay out.
+GROUND LOCK: dry brick dust and grit in every frame, blasting up where a body lands.
+[Locks]
+CAST LOCK: exactly ONE woman is in this video — SEOYUN as Seoyun, her face and outfit unchanged in every frame. Everything else moving is the swarm from RIFT-TOUCHED. A teammate, a second woman and any other human stay out of every frame.
+CLEAR SKY LOCK: the air above the piazza is empty. A violet sphere, a rift, a portal, an orb, a glowing object in the sky and violet light falling from above all stay out of every frame.
+DRIVER LOCK: Seoyun attacks and moves constantly — advancing across the brick, turning for a new angle, stepping into each gesture. Standing still and waiting to be attacked stays out.
+GESTURE VOCABULARY — TEN DIFFERENT MOVES: every attack starts from a clear hand shape and the bodies obey it. OPEN PALM PUSH, the target launched straight back. TWO-FINGER POINT, the target driven down and pinned into the brick. HAND SWEEP, everything on that line thrown sideways into the columns. FIST CLOSE, a body dropping flat where it stands. GATHERING CIRCLE, three or four dragged into a tight cluster and thrown as one mass. HOOK PULL, a runner dragged off its feet toward her and slung past her shoulder. LIFT AND SLAM, one raised high off the brick and driven straight down into a crater. SPIN THROW, one whirled around her in a flat arc and released into the arcade. DOUBLE PALM RING, both hands driving outward and everything within reach thrown away from her in a circle. DEBRIS SWEEP, café tables and chairs ripped off the floor and flung through the pack. Each gesture flows out of the last one's momentum and consecutive beats always use different moves.
+TELEKINETIC EFFECT: her gestures DISPLACE the air along the line her hand aims. HAND SHAPE SNAPS -> AIR COMPRESSES -> PRESSURE COLLAPSE -> BODIES CARRIED. Visible as transparent distortion like clear glass bending the arcade behind it, dust blasted along the vector, chairs skittering. Glow, colour, beams and energy balls stay out entirely.
+DAMAGE LOCK: every hit wrecks the piazza — plaster bursts off columns, shutters buckle, brick cracks into craters with dust erupting in a ring, café tables splinter. Debris stays in frame once made.
+IMPACT LOCK: struck bodies fold and ragdoll along the force vector, thick violet fluid bursting along the contact line in hard arcs onto brick and plaster, matte and dark. The bodies drop and stay.
+STRIKE CADENCE: one attack lands every half second, thirty beats — the next gesture is already snapping while the previous bodies are still in the air.
+SPEED CYCLE: full speed -> gesture SNAP -> extreme acceleration -> 0.3-0.5s micro slow-mo ONLY on the beats marked slow below -> TIME SNAP -> full speed, each slow beat opened and closed in its own half-second slot.
+SWARM LOCK: the enemies come from RIFT-TOUCHED alone. ALWAYS IN MOTION — sprinting through the arches from both flanks and from ahead, arms reaching, more arriving in every shot. A few heavier ones run among them, a head taller, still human silhouette and proportions.
+ANGLE LOCK: every shot sits on a DIAGONAL — forty five degrees off the line between her hand and its target, three-quarter front or rear, always off to one side. Straight frontal framing squared to her face and shots from directly behind stay out.
+CAMERA MOTION LOCK: organic unsteady frame as if held by human hands, micro jitter, lurching on each launch, whip-panning after thrown bodies.
+AUDIO: raw ambient only — a deep whump on each push, air tearing on the throws, bodies hitting stone, plaster cracking, chairs splintering, her breathing, the surge of the swarm.
+[Stage 1] 00-05 [WS to FS]
+Initial state: Seoyun alone on the brick, advancing, the swarm sprinting at her from both flanks.
+BEATS, one attack per half second:
+0.0s OPEN PALM PUSH right, one launched back into a column.
+0.5s TWO-FINGER POINT left, driven down, brick cracking, dust ringing out.
+1.0s HAND SWEEP across, two thrown into the arcade, plaster bursting.
+1.5s slow: HOOK PULL, a runner dragged off its feet toward her and slung past her shoulder into the stone — TIME SNAP as it hits.
+2.0s FIST CLOSE, one drops flat where it stands.
+2.5s LIFT AND SLAM, one raised high and driven down into a fresh crater.
+3.0s OPEN PALM PUSH forward, a body carried through a café table.
+3.5s DEBRIS SWEEP, two chairs ripped off the floor and flung through the pack.
+4.0s TWO-FINGER POINT behind her, eyes forward, one slammed down.
+4.5s SPIN THROW, one whirled around her and released into the arches.
+[Camera: three-quarter tracking alongside her at shoulder height.]
+End state — Seoyun mid-stride, hand still out, the swarm scattered behind her.
+[DUB: none]
+[Stage 2] 05-10 [FS]
+Continue: advancing, hand out, a fresh group closing from ahead and both flanks.
+BEATS, one attack per half second:
+5.0s HAND SWEEP right, two thrown into the columns.
+5.5s LIFT AND SLAM, one driven down into a crater beside her.
+6.0s GATHERING CIRCLE begins, four dragged off their feet and pulled inward.
+6.5s the four compress into one tight cluster in the air, dust spiralling in.
+7.0s slow: her hand flicks and the cluster is thrown as a single mass, air warping ahead of it — TIME SNAP as it flies.
+7.5s the mass strikes the standing group like a bowling ball, bodies scattering.
+8.0s DOUBLE PALM RING, everything within reach thrown away from her in a circle.
+8.5s FIST CLOSE, one drops mid-lunge.
+9.0s TWO-FINGER POINT, another pinned beside it.
+9.5s DEBRIS SWEEP, a café table ripped up and driven into a shutter, the wood buckling.
+[Camera: three-quarter from her right at chest height, whip-panning with the cluster.]
+End state — Seoyun hand still extended, dust rolling past her, more arriving.
+[DUB: none]
+[Stage 3] 10-15 [FS to WS]
+Continue: the arcade wrecked behind her, the final group sprinting in.
+BEATS, one attack per half second:
+10.0s OPEN PALM PUSH, two launched back into the arches.
+10.5s HOOK PULL, one dragged in and slung past her into a column.
+11.0s HAND SWEEP left, three thrown into the stone, plaster sheeting off.
+11.5s FIST CLOSE, one drops flat.
+12.0s GATHERING CIRCLE, three dragged in and balled together.
+12.5s the cluster thrown low into the remaining pack, everything scattering.
+13.0s SPIN THROW, a heavy one whirled around and released across the brick.
+13.5s TWO-FINGER POINT, the last runner pinned into the floor.
+14.0s DOUBLE PALM RING clears the dust and debris outward from her in a ring.
+14.5s slow: her hand opens once more and the final body is driven into a crater, dust blasting out — TIME SNAP as it settles and she lowers her hand.
+[Camera: three-quarter rear, pulling wide as the last body lands, holding on the wrecked arcade.]
+End state — Seoyun alone among craters and splintered furniture, breathing, the swarm down across the piazza, the sky above empty and black.
+[DUB: none]
+[Maintain Consistency]
+Identity: one woman only, entirely from SEOYUN, unchanged in every stage, and she is the only human in frame.
+Gestures: a different hand shape on consecutive beats, ten distinct moves across the clip, the gathering circle once per stage at most.
+Rhythm: one attack every half second, thirty beats, the three slow beats each opened and closed inside their own slot, everything else at full speed.
+Effect: the force stays invisible — warped air, dust and debris only. Damage accumulates and stays in frame. One continuous piazza, one light direction throughout.
+CORE: follow this prompt exactly — audio is ambient and impact sound only — her mouth stays closed throughout — the frame stays text free.
+[Prohibited] no dialogue, no voice over, no subtitles, no on-screen text, no bgm, prohibit rigid cutting, prohibit a second woman or a teammate in frame, prohibit a violet sphere, a rift, a portal or any orb in the sky, prohibit glowing hands, prohibit red human blood, prohibit dusk, twilight or a lit sky. Audio: dialogue and diegetic sound effects only, no background music. 
